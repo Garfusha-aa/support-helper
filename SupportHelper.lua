@@ -20,6 +20,7 @@ require("lib.moonloader")
 local var_0_0 = require("encoding")
 local var_0_1 = require("inicfg")
 local encoding = require 'encoding'
+local updateStarted = false
 local sampev = require 'lib.samp.events'
 local var_0_2 = require("vkeys")
 local var_0_3 = "moonloader\\config\\Support Helper\\otvets.ini"
@@ -731,42 +732,39 @@ function autoupdate()
 
         local file = io.open(jsonFile, "r")
 
-        if not file then
-            return
-        end
+        if file then
 
-        local data =
-            decodeJson(file:read("*a"))
+            local content = file:read("*a")
+            file:close()
 
-        file:close()
+            local data = decodeJson(content)
 
-        if data.version ~= script_version then
+            if data.version ~= script_version and not updateStarted then
 
-            sampAddChatMessage(
-                "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
-                -1
-            )
+    updateStarted = true
 
-            downloadUrlToFile(
-                data.updateurl,
-                thisScript().path
-            )
+                sampAddChatMessage(
+                    "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
+                    -1
+                )
 
-            wait(5000)
+                downloadUrlToFile(
+                    data.updateurl,
+                    thisScript().path
+                )
 
-            sampAddChatMessage(
-                "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
-                -1
-            )
+                sampAddChatMessage(
+                    "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
+                    -1
+                )
 
-            thisScript():unload()
+            else
 
-        else
-
-            sampAddChatMessage(
-                "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
-                -1
-            )
+                sampAddChatMessage(
+                    "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
+                    -1
+                )
+            end
         end
     end)
 end
