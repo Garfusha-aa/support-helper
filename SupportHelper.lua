@@ -744,7 +744,8 @@ function autoupdate()
     updateStarted = true
 
                 sampAddChatMessage(
-                    "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
+                    "{FFFF00}Support Helper | {8B0000}-------Найдено обновление!-------. ",
+					"{FFFF00}Support Helper | {8B0000}-------Началась загрузка актуальной версии.-------. ",
                     -1
                 )
 
@@ -752,6 +753,7 @@ function autoupdate()
                     data.updateurl,
                     thisScript().path
                 )
+                wait(5000)
 
                 sampAddChatMessage(
                     "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
@@ -761,7 +763,7 @@ function autoupdate()
             else
 
                 sampAddChatMessage(
-                    "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
+                    "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия. Приятной игры на Samp RP Legacy!",
                     -1
                 )
             end
