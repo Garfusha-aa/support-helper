@@ -790,7 +790,7 @@ function main()
 		sampAddChatMessage("{EEE8AA}---------- Support Helper for Samp-RP ----------", -1)
 sampAddChatMessage("{FFFFFF}Статус: {00FF00}Активирован", -1)
 sampAddChatMessage("{FFFFFF}Меню: {FFE4B5}/shelper", -1)
-sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
+sampAddChatMessage("{FFFFFF}Dev: {008000}Garfusha", -1)
 	end
 
 	for iter_6_0, iter_6_1 in pairs(var_0_36) do
