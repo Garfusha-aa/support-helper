@@ -1,7 +1,7 @@
 script_name("Support Helper for Samp-rp")
 script_author("garfusha")
 script_description("command")
-script_version = "1.2"
+script_version = "1.0"
 
 script_url = "https://raw.githubusercontent.com/Garfusha-aa/support-helper/main/SupportHelper.lua"
 
@@ -126,11 +126,11 @@ local var_0_57 = {}
 local var_0_58 = ""
 local var_0_59 = 0
 local var_0_60 = {
-	u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+	u8("Не выбрано")
 }
 local var_0_61 = var_0_6.ImInt(0)
 local var_0_62 = {
-	u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+	u8("Не выбрано")
 }
 local var_0_63 = var_0_6.ImInt(0)
 local var_0_64 = 0
@@ -256,23 +256,23 @@ local var_0_68 = {
     "Landstalker XL | L | 500.000 | 91 m/h | 6000",
     "Thunder-Rodd | L | 1.700.000 | 85 m/h | 20400",
     "Bobcat ST | L | 1.500.000 | 89 m/h | 18000",
-    "Patriot | S | Auction S Г®ГІ 20.000.000$ | 87 m/h | 120000",
-    "Stretch | S | Auction S Г®ГІ 20.000.000$ | 88 m/h | 120000",
-    "Romero | S | Auction S Г®ГІ 20.000.000$ | 77 m/h | 120000",
-    "Burrito | S | Auction S Г®ГІ 20.000.000$ | 87 m/h | 120000",
-    "Caddy | S | Auction S Г®ГІ 20.000.000$ | 87 m/h | 120000",
-    "Camper | S | Auction S Г®ГІ 20.000.000$ | 68 m/h | 120000",
-    "Mesa | S | Auction S Г®ГІ 20.000.000$ | 78 m/h | 120000",
-    "Pizzaboy | S | Auction S Г®ГІ 20.000.000$ | 62 m/h | 120000",
-    "Bloodring Banger | S | Auction S Г®ГІ 20.000.000$ | 96 m/h | 120000",
-    "BMX | S | Auction S Г®ГІ 20.000.000$ | 40/54 m/h | 120000",
-    "Bike | S | Auction S Г®ГІ 20.000.000$ | 44/58 m/h | 120000",
-    "Mountain Bike | S | Auction S Г®ГІ 20.000.000$ | 56/72 m/h | 120000",
-    "Vortex | S | Auction S Г®ГІ 20.000.000$ | 55 m/h | 120000",
-    "Bandito | S | Auction S Г®ГІ 20.000.000$ | 81 m/h | 120000",
-    "Kart | S | Auction S Г®ГІ 20.000.000$ | 52 m/h | 120000",
-    "Dune | S | Auction S Г®ГІ 20.000.000$ | 61 m/h | 120000",
-    "Mower | S | Auction S Г®ГІ 20.000.000$ | 33 m/h | 120000",
+    "Patriot | S | Auction S от 20.000.000$ | 87 m/h | 120000",
+    "Stretch | S | Auction S от 20.000.000$ | 88 m/h | 120000",
+    "Romero | S | Auction S от 20.000.000$ | 77 m/h | 120000",
+    "Burrito | S | Auction S от 20.000.000$ | 87 m/h | 120000",
+    "Caddy | S | Auction S от 20.000.000$ | 87 m/h | 120000",
+    "Camper | S | Auction S от 20.000.000$ | 68 m/h | 120000",
+    "Mesa | S | Auction S от 20.000.000$ | 78 m/h | 120000",
+    "Pizzaboy | S | Auction S от 20.000.000$ | 62 m/h | 120000",
+    "Bloodring Banger | S | Auction S от 20.000.000$ | 96 m/h | 120000",
+    "BMX | S | Auction S от 20.000.000$ | 40/54 m/h | 120000",
+    "Bike | S | Auction S от 20.000.000$ | 44/58 m/h | 120000",
+    "Mountain Bike | S | Auction S от 20.000.000$ | 56/72 m/h | 120000",
+    "Vortex | S | Auction S от 20.000.000$ | 55 m/h | 120000",
+    "Bandito | S | Auction S от 20.000.000$ | 81 m/h | 120000",
+    "Kart | S | Auction S от 20.000.000$ | 52 m/h | 120000",
+    "Dune | S | Auction S от 20.000.000$ | 61 m/h | 120000",
+    "Mower | S | Auction S от 20.000.000$ | 33 m/h | 120000",
     "Cartel Cruiser | L | 5.000.000 | 87 m/h | 60000",
     "Kuruma Classic | L | 600.000 | 93 m/h | 7200",
     "Stretch XS | L | 30000 srpcoins | 92 m/h | 102000",
@@ -288,14 +288,14 @@ local var_0_68 = {
     "Mercedes-Benz W140 | L | 7.500.000 | 110 m/h | 90000",
     "Subaru BRZ | L | 10.000.000 | 117 m/h | 120000",
     "Subaru Impreza | L | 14.000.000 | 127 m/h | 168000",
-    "Tesla Model S | L | HГҐ ГЇГ°Г®Г¤Г ГҐГІГ±Гї | 129 m/h",
+    "Tesla Model S | L | Hе продается | 129 m/h",
     "Gang Rancher | L | 750.000 | 82 m/h | 9000",
     "Brigham | L | 900.000 | 94 m/h | 10800",
     "Toyota Prius | L | 6.000.000 | 108 m/h | 72000",
     "Ford Mustang | L | 12.500.000 | 130 m/h | 15000",
     "Lamborghini Urus | L | 17.000.000 | 138 m/h | 204000",
-    "Bentley Flying Spur | L | HГҐ ГЇГ°Г®Г¤Г ГҐГІГ±Гї | 141 m/h",
-    "Tesla Cybertruck | L | HГҐ ГЇГ°Г®Г¤Г ГҐГІГ±Гї | 131 m/h",
+    "Bentley Flying Spur | L | Hе продается | 141 m/h",
+    "Tesla Cybertruck | L | Hе продается | 131 m/h",
     "Dodge Viper | L | 14.000.000 | 131 m/h | 168000",
     "Volkswagen Golf | L | 6.000.000 | 105 m/h | 72000",
     "Acura RSX | L | 7.500.000 | 108 m/h | 90000",
@@ -323,154 +323,154 @@ local var_0_68 = {
     "McLaren 720s Spider | L | Battlepass 1 season | 145 m/h | 120000"
 }
 local var_0_69 = {
-	[0] = "ГЃГ Г­ГЄГЁ | /gps 0 0-9",
-	"ГЊГЅГ°ГЁГї | /gps 0 10",
-	"ГЂГўГІГ®ГёГЄГ®Г«Г  | /gps 0 11",
-	"ГЂГўГЁГ ГёГЄГ®Г«Г  [LV] | /gps 0 12",
-	"ГЂГўГІГ®ГўГ®ГЄГ§Г Г« (Г‘ГЇГ ГўГ­ Г­Г®ГўГЁГ·ГЄГ®Гў) | /gps 0 13,15,16",
+	[0] = "Банки | /gps 0 0-9",
+	"Мэрия | /gps 0 10",
+	"Автошкола | /gps 0 11",
+	"Авиашкола [LV] | /gps 0 12",
+	"Автовокзал (Спавн новичков) | /gps 0 13,15,16",
 	"Fort Carson | /gps 0 17",
-	"ГЏГ°ГЁГҐГ¬ Г¬ГҐГІГ Г«Г«Г  | /gps 0 18",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [LS] | /gps 0 19",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [SF] | /gps 0 20",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [LV] | /gps 0 21",
-	"ГЏГ«ГїГ¦ Santa Maria | /gps 0 24",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [LS] | /gps 0 26",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [SF] | /gps 0 27",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [LV] | /gps 0 28",
-	"ГђГ Г§ГўГ«ГҐГЄГ ГІГҐГ«ГјГ­Г»ГҐ Г¶ГҐГ­ГІГ°Г» | /gps 0 29-31",
-	"Г–ГҐГ°ГЄГ®ГўГј | /gps 0 32",
-	"Г‚Г®ГҐГ­ГЄГ®Г¬Г ГІ Г‘Г” | /gps 0 33",
-	"Г‚Г®ГҐГ­ГЄГ®Г¬Г ГІ Г‹Г‚ | /gps 0 34",
-	"Г’Г®Г°ГЈГ®ГўГ Гї ГЇГ«Г®Г№Г Г¤ГЄГ  | /gps 0 35",
-	"Г—ГҐГ°Г­Г»Г© Г°Г»Г­Г®ГЄ | /gps 0 36",
-	"ГЉГ«Г Г¤ГЎГЁГ№ГҐ | /gps 0 37",
-	"Г’Г°ГҐГ­ГЁГ­ГЈ Г¶ГҐГ­ГІГ° | /gps 0 38",
-	"Г‚Г®ГҐГ­Г­Г»Г© Г¬ГіГ§ГҐГ© | /gps 0 39",
-	"Г‘ГіГ¤ | /gps 0 40",
-	"ГђГ»ГЎГ®Г«Г®ГўГ­Г»Г© Г¬Г ГЈГ Г§ГЁГ­ [Whetstone] | /gps 0 42",
-	"ГђГ»ГЎГ®Г«Г®ГўГ­Г»Г© Г¬Г ГЈГ Г§ГЁГ­ [Bone] | /gps 0 43",
-	"Г‘ГЄГ«Г Г¤ Г± Г Г«ГЄГ®ГЈГ®Г«ГҐГ¬ | /gps 1 0",
-	"ГЌГҐГґГІГҐГ§Г ГўГ®Г¤ | /gps 1 1",
-	"Г‘ГЄГ«Г Г¤ ГЇГ°Г®Г¤ГіГЄГІГ®Гў | /gps 1 2",
-	"Г‘ГЄГ«Г Г¤ Г¤Г«Гї ГіГ°Г®Г¦Г Гї Г± ГґГҐГ°Г¬ | /gps 1 3",
-	"Г‘ГІГ®ГїГ­ГЄГ  Г¬Г ГёГЁГ­ Г•Г®ГІ Г¤Г®ГЈГ®Гў | /gps 1 4",
-	"Г‘ГІГ®ГїГ­ГЄГ  Г€Г­ГЄГ Г±Г±Г ГІГ®Г°Г®Гў | /gps 1 5",
-	"ГђГ ГЎГ®ГІГ  ГЈГ°ГіГ§Г·ГЁГЄГ  | /gps 1 6",
-	"Г‘ГЄГ«Г Г¤ Г± Г­Г Г°ГЄГ®ГІГЁГЄГ Г¬ГЁ | /gps 1 7",
-	"Г‘ГІГ®ГїГ­ГЄГ  ГЈГ°Г ГЎГЁГІГҐГ«ГҐГ© Г‹ГќГЏ | /gps 1 9",
-	"Г‘ГІГ®ГїГ­ГЄГ  ГЅГ«ГҐГЄГІГ°ГЁГЄГ®Гў | /gps 1 10",
-	"ГЋГЈГ°Г ГЎГ«ГҐГ­ГЁГҐ Г¤Г®Г¬Г®Гў | /gps 1 11",
-	"ГЋГ°ГіГ¦ГҐГ©Г­Г»Г© Г§Г ГўГ®Г¤ | /gps 1 12",
-	"ГЏГ°Г®Г¤Г Г¦Г  ГёГЄГіГ° Г¦ГЁГўГ®ГІГ­Г»Гµ | /gps 1 13",
-	"Г‘ГЄГ«Г Г¤ Г‹Г‘/Г‘Г”/Г‹Г‚ | /gps 1 14-16",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [LS] | /gps 1 17",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [SF] | /gps 1 18",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [LV] | /gps 1 19",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»ГҐ ГЇГ Г°ГЄГЁ | /gps 1 17-19",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [LS] | /gps 1 20",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [SF] | /gps 1 21",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [LV] | /gps 1 22",
-	"ГЂГўГІГ®ГіГЈГ®Г­ ГўГ±ГҐ Г¬ГҐГ±ГІГ  | /gps 1 20-22",
-	"Г‘ГіГ¬ГЄГ  Г¤Г«Гї Г®ГЈГ°Г ГЎГ«ГҐГ­ГЁГї ГЎГ Г­ГЄГ  | /gps 1 23-26",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: Nope | /gps 3 0",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: D and C | /gps 3 1",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: L | /gps 3 2",
-	"ГЂГіГЄГ¶ГЁГ®Г­ Г ГўГІГ®: S | /gps 3 3",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: B and A | /gps 3 4",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [LS] | /gps 3 5",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [SF] | /gps 3 6",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [LV] | /gps 3 7",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г ГЄГ±ГҐГ±Г±ГіГ Г°Г®Гў [SF] | /gps 3 8",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г°ГіГ¦ГЁГї | /gps 3 9-19",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LS] | /gps 3 20",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [SF] | /gps 3 21",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LV] | /gps 3 22",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LS/SF/LV] | /gps 3 20-22",
-	"ГЂГ°ГҐГ­Г¤Г  Г±Г Г¬Г®Г«ГҐГІГ  [LV] | /gps 3 23",
-	"ГЏГ®ГЄГіГЇГЄГ  ГўГ®Г¤Г­Г®ГЈГ® ГІГ°Г Г­Г±ГЇГ®Г°ГІГ  | /gps 3 24",
-	"ГЏГ°ГЁГІГ®Г­Г» | /gps 3 25-29",
-	"Г”ГҐГ°Г¬Г» | /gps 5",
-	"Г„Г Г«ГјГ­Г®ГЎГ®Г©Г№ГЁГЄГЁ | /gps 6",
-	"Г‘Г’ГЋ | /gps 11",
-	"ГѓГ Г°Г Г¦ГЁ | /gps 12",
-	"ГЋГґГЁГ±Г» | /gps 13",
-	"ГЉГ Г§ГЁГ­Г® Four Dragons ГЁ Caligula Г­Г ГµГ®Г¤ГїГІГ±Гї Г°ГїГ¤Г®Г¬ Г± ГЅГІГЁГ¬ ГЎГ Г°Г®Г¬ | /gps 2 14",
-	"Г„Г«Гї Г®ГґГЁГ±Г®Гў | /gps 14"
+	"Прием металла | /gps 0 18",
+	"Аэропорт [LS] | /gps 0 19",
+	"Аэропорт [SF] | /gps 0 20",
+	"Аэропорт [LV] | /gps 0 21",
+	"Пляж Santa Maria | /gps 0 24",
+	"Спортзал [LS] | /gps 0 26",
+	"Спортзал [SF] | /gps 0 27",
+	"Спортзал [LV] | /gps 0 28",
+	"Развлекательные центры | /gps 0 29-31",
+	"Церковь | /gps 0 32",
+	"Военкомат СФ | /gps 0 33",
+	"Военкомат ЛВ | /gps 0 34",
+	"Торговая площадка | /gps 0 35",
+	"Черный рынок | /gps 0 36",
+	"Кладбище | /gps 0 37",
+	"Тренинг центр | /gps 0 38",
+	"Военный музей | /gps 0 39",
+	"Суд | /gps 0 40",
+	"Рыболовный магазин [Whetstone] | /gps 0 42",
+	"Рыболовный магазин [Bone] | /gps 0 43",
+	"Склад с алкоголем | /gps 1 0",
+	"Нефтезавод | /gps 1 1",
+	"Склад продуктов | /gps 1 2",
+	"Склад для урожая с ферм | /gps 1 3",
+	"Стоянка машин Хот догов | /gps 1 4",
+	"Стоянка Инкассаторов | /gps 1 5",
+	"Работа грузчика | /gps 1 6",
+	"Склад с наркотиками | /gps 1 7",
+	"Стоянка грабителей ЛЭП | /gps 1 9",
+	"Стоянка электриков | /gps 1 10",
+	"Ограбление домов | /gps 1 11",
+	"Оружейный завод | /gps 1 12",
+	"Продажа шкур животных | /gps 1 13",
+	"Склад ЛС/СФ/ЛВ | /gps 1 14-16",
+	"Автобусный парк [LS] | /gps 1 17",
+	"Автобусный парк [SF] | /gps 1 18",
+	"Автобусный парк [LV] | /gps 1 19",
+	"Автобусные парки | /gps 1 17-19",
+	"Автоугон [LS] | /gps 1 20",
+	"Автоугон [SF] | /gps 1 21",
+	"Автоугон [LV] | /gps 1 22",
+	"Автоугон все места | /gps 1 20-22",
+	"Сумка для ограбления банка | /gps 1 23-26",
+	"Автосалон: Nope | /gps 3 0",
+	"Автосалон: D and C | /gps 3 1",
+	"Автосалон: L | /gps 3 2",
+	"Аукцион авто: S | /gps 3 3",
+	"Автосалон: B and A | /gps 3 4",
+	"Магазин одежды [LS] | /gps 3 5",
+	"Магазин одежды [SF] | /gps 3 6",
+	"Магазин одежды [LV] | /gps 3 7",
+	"Магазин аксессуаров [SF] | /gps 3 8",
+	"Магазин оружия | /gps 3 9-19",
+	"Аренда вертолета [LS] | /gps 3 20",
+	"Аренда вертолета [SF] | /gps 3 21",
+	"Аренда вертолета [LV] | /gps 3 22",
+	"Аренда вертолета [LS/SF/LV] | /gps 3 20-22",
+	"Аренда самолета [LV] | /gps 3 23",
+	"Покупка водного транспорта | /gps 3 24",
+	"Притоны | /gps 3 25-29",
+	"Фермы | /gps 5",
+	"Дальнобойщики | /gps 6",
+	"СТО | /gps 11",
+	"Гаражи | /gps 12",
+	"Офисы | /gps 13",
+	"Казино Four Dragons и Caligula находятся рядом с этим баром | /gps 2 14",
+	"Для офисов | /gps 14"
 }
 local var_0_70 = {
-	"ГЃГ Г­ГЄГЁ",
-	"ГЊГЅГ°ГЁГї",
-	"ГЂГўГІГ®ГёГЄГ®Г«Г ",
-	"ГЂГўГЁГ ГёГЄГ®Г«Г  [LV]",
-	"ГЂГўГІГ®ГўГ®ГЄГ§Г Г« (Г‘ГЇГ ГўГ­ Г­Г®ГўГЁГ·ГЄГ®Гў)",
+	"Банки",
+	"Мэрия",
+	"Автошкола",
+	"Авиашкола [LV]",
+	"Автовокзал (Спавн новичков)",
 	"Fort Carson",
-	"ГЏГ°ГЁГҐГ¬ Г¬ГҐГІГ Г«Г«Г ",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [LS]",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [SF]",
-	"ГЂГЅГ°Г®ГЇГ®Г°ГІ [LV]",
-	"ГЏГ«ГїГ¦ Santa Maria",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [LS]",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [SF]",
-	"Г‘ГЇГ®Г°ГІГ§Г Г« [LV]",
-	"ГђГ Г§ГўГ«ГҐГЄГ ГІГҐГ«ГјГ­Г»ГҐ Г¶ГҐГ­ГІГ°Г»",
-	"Г–ГҐГ°ГЄГ®ГўГј",
-	"Г‚Г®ГҐГ­ГЄГ®Г¬Г ГІ Г‘Г”",
-	"Г‚Г®ГҐГ­ГЄГ®Г¬Г ГІ Г‹Г‚",
-	"Г’Г®Г°ГЈГ®ГўГ Гї ГЇГ«Г®Г№Г Г¤ГЄГ ",
-	"Г—ГҐГ°Г­Г»Г© Г°Г»Г­Г®ГЄ",
-	"ГЉГ«Г Г¤ГЎГЁГ№ГҐ",
-	"Г’Г°ГҐГ­ГЁГ­ГЈ Г¶ГҐГ­ГІГ°",
-	"Г‚Г®ГҐГ­Г­Г»Г© Г¬ГіГ§ГҐГ©",
-	"Г‘ГіГ¤",
-	"ГђГ»ГЎГ®Г«Г®ГўГ­Г»Г© Г¬Г ГЈГ Г§ГЁГ­ [Whetstone]",
-	"ГђГ»ГЎГ®Г«Г®ГўГ­Г»Г© Г¬Г ГЈГ Г§ГЁГ­ [Bone]",
-	"Г‘ГЄГ«Г Г¤ Г± Г Г«ГЄГ®ГЈГ®Г«ГҐГ¬",
-	"ГЌГҐГґГІГҐГ§Г ГўГ®Г¤",
-	"Г‘ГЄГ«Г Г¤ ГЇГ°Г®Г¤ГіГЄГІГ®Гў",
-	"Г‘ГЄГ«Г Г¤ Г¤Г«Гї ГіГ°Г®Г¦Г Гї Г± ГґГҐГ°Г¬",
-	"Г‘ГІГ®ГїГ­ГЄГ  Г¬Г ГёГЁГ­ Г•Г®ГІ Г¤Г®ГЈГ®Гў",
-	"Г‘ГІГ®ГїГ­ГЄГ  Г€Г­ГЄГ Г±Г±Г ГІГ®Г°Г®Гў",
-	"ГђГ ГЎГ®ГІГ  ГЈГ°ГіГ§Г·ГЁГЄГ ",
-	"Г‘ГЄГ«Г Г¤ Г± Г­Г Г°ГЄГ®ГІГЁГЄГ Г¬ГЁ",
-	"Г‘ГІГ®ГїГ­ГЄГ  ГЈГ°Г ГЎГЁГІГҐГ«ГҐГ© Г‹ГќГЏ",
-	"Г‘ГІГ®ГїГ­ГЄГ  ГЅГ«ГҐГЄГІГ°ГЁГЄГ®Гў",
-	"ГЋГЈГ°Г ГЎГ«ГҐГ­ГЁГҐ Г¤Г®Г¬Г®Гў",
-	"ГЋГ°ГіГ¦ГҐГ©Г­Г»Г© Г§Г ГўГ®Г¤",
-	"ГЏГ°Г®Г¤Г Г¦Г  ГёГЄГіГ° Г¦ГЁГўГ®ГІГ­Г»Гµ",
-	"Г‘ГЄГ«Г Г¤ Г‹Г‘/Г‘Г”/Г‹Г‚",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [LS]",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [SF]",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»Г© ГЇГ Г°ГЄ [LV]",
-	"ГЂГўГІГ®ГЎГіГ±Г­Г»ГҐ ГЇГ Г°ГЄГЁ",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [LS]",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [SF]",
-	"ГЂГўГІГ®ГіГЈГ®Г­ [LV]",
-	"ГЂГўГІГ®ГіГЈГ®Г­ ГўГ±ГҐ Г¬ГҐГ±ГІГ ",
-	"Г‘ГіГ¬ГЄГ  Г¤Г«Гї Г®ГЈГ°Г ГЎГ«ГҐГ­ГЁГї ГЎГ Г­ГЄГ ",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: Nope",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: D and C",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: L",
-	"ГЂГіГЄГ¶ГЁГ®Г­ Г ГўГІГ®: S",
-	"ГЂГўГІГ®Г±Г Г«Г®Г­: B and A",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [LS] ",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [SF] ",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г¤ГҐГ¦Г¤Г» [LV] ",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г ГЄГ±ГҐГ±Г±ГіГ Г°Г®Гў [SF]",
-	"ГЊГ ГЈГ Г§ГЁГ­ Г®Г°ГіГ¦ГЁГї",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LS]",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [SF]",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LV]",
-	"ГЂГ°ГҐГ­Г¤Г  ГўГҐГ°ГІГ®Г«ГҐГІГ  [LS/SF/LV]",
-	"ГЂГ°ГҐГ­Г¤Г  Г±Г Г¬Г®Г«ГҐГІГ ",
-	"ГЏГ®ГЄГіГЇГЄГ  ГўГ®Г¤Г­Г®ГЈГ® ГІГ°Г Г­Г±ГЇГ®Г°ГІГ ",
-	"ГЏГ°ГЁГІГ®Г­Г»",
-	"Г”ГҐГ°Г¬Г»",
-	"Г„Г Г«ГјГ­Г®ГЎГ®Г©Г№ГЁГЄГЁ",
-	"Г‘Г’ГЋ",
-	"ГѓГ Г°Г Г¦ГЁ",
-	"ГЋГґГЁГ±Г»",
-	"ГЉГ Г§ГЁГ­Г®",
-	"Г„Г«Гї Г®ГґГЁГ±Г®Гў"
+	"Прием металла",
+	"Аэропорт [LS]",
+	"Аэропорт [SF]",
+	"Аэропорт [LV]",
+	"Пляж Santa Maria",
+	"Спортзал [LS]",
+	"Спортзал [SF]",
+	"Спортзал [LV]",
+	"Развлекательные центры",
+	"Церковь",
+	"Военкомат СФ",
+	"Военкомат ЛВ",
+	"Торговая площадка",
+	"Черный рынок",
+	"Кладбище",
+	"Тренинг центр",
+	"Военный музей",
+	"Суд",
+	"Рыболовный магазин [Whetstone]",
+	"Рыболовный магазин [Bone]",
+	"Склад с алкоголем",
+	"Нефтезавод",
+	"Склад продуктов",
+	"Склад для урожая с ферм",
+	"Стоянка машин Хот догов",
+	"Стоянка Инкассаторов",
+	"Работа грузчика",
+	"Склад с наркотиками",
+	"Стоянка грабителей ЛЭП",
+	"Стоянка электриков",
+	"Ограбление домов",
+	"Оружейный завод",
+	"Продажа шкур животных",
+	"Склад ЛС/СФ/ЛВ",
+	"Автобусный парк [LS]",
+	"Автобусный парк [SF]",
+	"Автобусный парк [LV]",
+	"Автобусные парки",
+	"Автоугон [LS]",
+	"Автоугон [SF]",
+	"Автоугон [LV]",
+	"Автоугон все места",
+	"Сумка для ограбления банка",
+	"Автосалон: Nope",
+	"Автосалон: D and C",
+	"Автосалон: L",
+	"Аукцион авто: S",
+	"Автосалон: B and A",
+	"Магазин одежды [LS] ",
+	"Магазин одежды [SF] ",
+	"Магазин одежды [LV] ",
+	"Магазин аксессуаров [SF]",
+	"Магазин оружия",
+	"Аренда вертолета [LS]",
+	"Аренда вертолета [SF]",
+	"Аренда вертолета [LV]",
+	"Аренда вертолета [LS/SF/LV]",
+	"Аренда самолета",
+	"Покупка водного транспорта",
+	"Притоны",
+	"Фермы",
+	"Дальнобойщики",
+	"СТО",
+	"Гаражи",
+	"Офисы",
+	"Казино",
+	"Для офисов"
 }
 local var_0_71, var_0_72 = getScreenResolution()
 local var_0_73 = 0
@@ -621,13 +621,13 @@ local var_0_88 = {
 }
 local var_0_89 = os.date("%H:%M:%S", os.time())
 local var_0_90 = {
-	[0] = "Г‚Г®Г±ГЄГ°ГҐГ±ГҐГ­ГјГҐ",
-	"ГЏГ®Г­ГҐГ¤ГҐГ«ГјГ­ГЁГЄ",
-	"Г‚ГІГ®Г°Г­ГЁГЄ",
-	"Г‘Г°ГҐГ¤Г ",
-	"Г—ГҐГІГўГҐГ°ГЈ",
-	"ГЏГїГІГ­ГЁГ¶Г ",
-	"Г‘ГіГЎГЎГ®ГІГ "
+	[0] = "Воскресенье",
+	"Понедельник",
+	"Вторник",
+	"Среда",
+	"Четверг",
+	"Пятница",
+	"Суббота"
 }
 
 font = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize, var_0_76.tag.global_FontFlag)
@@ -741,7 +741,7 @@ function autoupdate()
             if data.version ~= script_version then
 
                 sampAddChatMessage(
-                    "[Support Helper] ГЌГ Г©Г¤ГҐГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ!",
+                    "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
                     -1
                 )
 
@@ -751,14 +751,14 @@ function autoupdate()
                 )
 
                 sampAddChatMessage(
-                    "[Support Helper] Г‘ГЄГ°ГЁГЇГІ Г®ГЎГ­Г®ГўГ«ГҐГ­! ГЏГҐГ°ГҐГ§Г ГЇГіГ±ГІГЁГІГҐ ГЁГЈГ°Гі.",
+                    "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
                     -1
                 )
 
             else
 
                 sampAddChatMessage(
-                    "[Support Helper] ГЏГ®Г±Г«ГҐГ¤Г­ГїГї ГўГҐГ°Г±ГЁГї.",
+                    "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
                     -1
                 )
             end
@@ -780,13 +780,13 @@ function main()
 	local var_6_2 = sampGetPlayerNickname(var_6_1)
 
 	if var_6_2 == "Etienne_Kavinsky" or var_6_2 == "Ratnik_Cybersport" or var_6_2 == "Dardas_Beretta" or var_6_2 == "William_Adomson" then
-		sampAddChatMessage(var_0_13 .. " {FF0000}Г‚Г­ГЁГ¬Г Г­ГЁГҐ! [ {FFFFFF}Г‚Г Г¬ Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ Г¤Г®Г±ГІГіГЇ ГЄ Г¤Г Г­Г­Г®Г¬Гі Г±ГЄГ°ГЁГЇГІГі{FF0000} ]", 16776960)
-		sampAddChatMessage(var_0_13 .. " {FF0000}Г‚Г­ГЁГ¬Г Г­ГЁГҐ! [ {FFFFFF}Г„Г«Гї ГЇГ®Г«ГіГ·ГҐГ­ГЁГї Г¤Г®Г±ГІГіГЇГ  ГЄ Г±ГЄГ°ГЁГЇГІГі Г±ГўГїГ¦ГЁГІГҐГ±Гј Г± Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГ®Г¬ Г±ГЄГ°ГЁГЇГІГ {FF0000} ]", 16776960)
+		sampAddChatMessage(var_0_13 .. " {FF0000}Внимание! [ {FFFFFF}Вам ограничен доступ к данному скрипту{FF0000} ]", 16776960)
+		sampAddChatMessage(var_0_13 .. " {FF0000}Внимание! [ {FFFFFF}Для получения доступа к скрипту свяжитесь с разработчиком скрипта{FF0000} ]", 16776960)
 		thisScript():unload()
 	else
 		sampAddChatMessage("{EEE8AA}---------- Support Helper for Samp-RP ----------", -1)
-sampAddChatMessage("{FFFFFF}Г‘ГІГ ГІГіГ±: {00FF00}ГЂГЄГІГЁГўГЁГ°Г®ГўГ Г­", -1)
-sampAddChatMessage("{FFFFFF}ГЊГҐГ­Гѕ: {FFE4B5}/shelper", -1)
+sampAddChatMessage("{FFFFFF}Статус: {00FF00}Активирован", -1)
+sampAddChatMessage("{FFFFFF}Меню: {FFE4B5}/shelper", -1)
 sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 	end
 
@@ -853,9 +853,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				if var_8_1 == "35" or var_8_1 == "36" or var_8_1 == "37" or var_8_1 == "78" or var_8_1 == "79" or var_8_1 == "95" or var_8_1 == "134" or var_8_1 == "136" or var_8_1 == "137" or var_8_1 == "212" or var_8_1 == "230" or var_8_1 == "90" or var_8_1 == "193" or var_8_1 == "55" or var_8_1 == "75" or var_8_1 == "77" then
 					if var_8_1 == "35" or var_8_1 == "36" or var_8_1 == "37" or var_8_1 == "78" or var_8_1 == "79" or var_8_1 == "95" or var_8_1 == "134" or var_8_1 == "136" or var_8_1 == "137" or var_8_1 == "212" or var_8_1 == "230" then
 						lua_thread.create(function()
-							local var_9_0 = "Skin 35 | M | 1.000(700 ГЇГ°ГЁ /boostinfo)"
+							local var_9_0 = "Skin 35 | M | 1.000(700 при /boostinfo)"
 							local var_9_1, var_9_2, var_9_3 = string.match(var_9_0, "Skin (.+) | (.+) | (.+)")
-							local var_9_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_9_3)
+							local var_9_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_9_3)
 
 							wait(50)
 							sampSetChatInputText(var_9_4)
@@ -863,9 +863,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "90" or var_8_1 == "193" or var_8_1 == "55" or var_8_1 == "75" or var_8_1 == "77" then
 						lua_thread.create(function()
-							local var_10_0 = "Skin 35 | M | 1.000(700 ГЇГ°ГЁ /boostinfo)"
+							local var_10_0 = "Skin 35 | M | 1.000(700 при /boostinfo)"
 							local var_10_1, var_10_2, var_10_3 = string.match(var_10_0, "Skin (.+) | (.+) | (.+)")
-							local var_10_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_10_3)
+							local var_10_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_10_3)
 
 							wait(50)
 							sampSetChatInputText(var_10_4)
@@ -875,9 +875,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "200" or var_8_1 == "135" or var_8_1 == "96" or var_8_1 == "155" or var_8_1 == "160" or var_8_1 == "25" or var_8_1 == "26" or var_8_1 == "58" or var_8_1 == "143" or var_8_1 == "235" or var_8_1 == "202" or var_8_1 == "13" or var_8_1 == "53" or var_8_1 == "199" then
 					if var_8_1 == "200" or var_8_1 == "135" or var_8_1 == "96" or var_8_1 == "155" or var_8_1 == "160" or var_8_1 == "25" or var_8_1 == "26" or var_8_1 == "58" or var_8_1 == "143" or var_8_1 == "235" or var_8_1 == "202" then
 						lua_thread.create(function()
-							local var_11_0 = "Skin 200 | M | 10.000(7.000 ГЇГ°ГЁ /boostinfo)"
+							local var_11_0 = "Skin 200 | M | 10.000(7.000 при /boostinfo)"
 							local var_11_1, var_11_2, var_11_3 = string.match(var_11_0, "Skin (.+) | (.+) | (.+)")
-							local var_11_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_11_3)
+							local var_11_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_11_3)
 
 							wait(50)
 							sampSetChatInputText(var_11_4)
@@ -885,9 +885,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "13" or var_8_1 == "53" or var_8_1 == "199" then
 						lua_thread.create(function()
-							local var_12_0 = "Skin 200 | M | 10.000(7.000 ГЇГ°ГЁ /boostinfo)"
+							local var_12_0 = "Skin 200 | M | 10.000(7.000 при /boostinfo)"
 							local var_12_1, var_12_2, var_12_3 = string.match(var_12_0, "Skin (.+) | (.+) | (.+)")
-							local var_12_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_12_3)
+							local var_12_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_12_3)
 
 							wait(50)
 							sampSetChatInputText(var_12_4)
@@ -897,9 +897,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "73" or var_8_1 == "44" or var_8_1 == "43" or var_8_1 == "14" or var_8_1 == "142" or var_8_1 == "210" or var_8_1 == "24" or var_8_1 == "63" or var_8_1 == "64" or var_8_1 == "197" or var_8_1 == "207" or var_8_1 == "243" then
 					if var_8_1 == "73" or var_8_1 == "44" or var_8_1 == "43" or var_8_1 == "14" or var_8_1 == "142" or var_8_1 == "210" or var_8_1 == "24" then
 						lua_thread.create(function()
-							local var_13_0 = "Skin 63 | Г† | 50.000(35.000 ГЇГ°ГЁ /boostinfo)"
+							local var_13_0 = "Skin 63 | Ж | 50.000(35.000 при /boostinfo)"
 							local var_13_1, var_13_2, var_13_3 = string.match(var_13_0, "Skin (.+) | (.+) | (.+)")
-							local var_13_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_13_3)
+							local var_13_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_13_3)
 
 							wait(50)
 							sampSetChatInputText(var_13_4)
@@ -907,9 +907,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "63" or var_8_1 == "64" or var_8_1 == "197" or var_8_1 == "207" or var_8_1 == "243" then
 						lua_thread.create(function()
-							local var_14_0 = "Skin 63 | Г† | 50.000(35.000 ГЇГ°ГЁ /boostinfo)"
+							local var_14_0 = "Skin 63 | Ж | 50.000(35.000 при /boostinfo)"
 							local var_14_1, var_14_2, var_14_3 = string.match(var_14_0, "Skin (.+) | (.+) | (.+)")
-							local var_14_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_14_3)
+							local var_14_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_14_3)
 
 							wait(50)
 							sampSetChatInputText(var_14_4)
@@ -919,9 +919,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "60" or var_8_1 == "8" or var_8_1 == "184" or var_8_1 == "2" or var_8_1 == "182" or var_8_1 == "234" or var_8_1 == "88" or var_8_1 == "151" or var_8_1 == "218" or var_8_1 == "231" then
 					if var_8_1 == "60" or var_8_1 == "8" or var_8_1 == "184" or var_8_1 == "2" or var_8_1 == "182" or var_8_1 == "234" then
 						lua_thread.create(function()
-							local var_15_0 = "Skin 88 | Г† | 100.000(70.000 ГЇГ°ГЁ /boostinfo)"
+							local var_15_0 = "Skin 88 | Ж | 100.000(70.000 при /boostinfo)"
 							local var_15_1, var_15_2, var_15_3 = string.match(var_15_0, "Skin (.+) | (.+) | (.+)")
-							local var_15_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_15_3)
+							local var_15_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_15_3)
 
 							wait(50)
 							sampSetChatInputText(var_15_4)
@@ -929,9 +929,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "88" or var_8_1 == "151" or var_8_1 == "218" or var_8_1 == "231" then
 						lua_thread.create(function()
-							local var_16_0 = "Skin 88 | Г† | 100.000(70.000 ГЇГ°ГЁ /boostinfo)"
+							local var_16_0 = "Skin 88 | Ж | 100.000(70.000 при /boostinfo)"
 							local var_16_1, var_16_2, var_16_3 = string.match(var_16_0, "Skin (.+) | (.+) | (.+)")
-							local var_16_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_16_3)
+							local var_16_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_16_3)
 
 							wait(50)
 							sampSetChatInputText(var_16_4)
@@ -941,9 +941,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "6" or var_8_1 == "179" or var_8_1 == "67" or var_8_1 == "23" or var_8_1 == "32" or var_8_1 == "128" or var_8_1 == "9" or var_8_1 == "225" then
 					if var_8_1 == "6" or var_8_1 == "179" or var_8_1 == "67" or var_8_1 == "23" or var_8_1 == "32" or var_8_1 == "128" then
 						lua_thread.create(function()
-							local var_17_0 = "Skin 9 | Г† | 250.000(175.000 ГЇГ°ГЁ /boostinfo)"
+							local var_17_0 = "Skin 9 | Ж | 250.000(175.000 при /boostinfo)"
 							local var_17_1, var_17_2, var_17_3 = string.match(var_17_0, "Skin (.+) | (.+) | (.+)")
-							local var_17_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_17_3)
+							local var_17_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_17_3)
 
 							wait(50)
 							sampSetChatInputText(var_17_4)
@@ -951,9 +951,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "9" or var_8_1 == "225" then
 						lua_thread.create(function()
-							local var_18_0 = "Skin 9 | Г† | 250.000(175.000 ГЇГ°ГЁ /boostinfo)"
+							local var_18_0 = "Skin 9 | Ж | 250.000(175.000 при /boostinfo)"
 							local var_18_1, var_18_2, var_18_3 = string.match(var_18_0, "Skin (.+) | (.+) | (.+)")
-							local var_18_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_18_3)
+							local var_18_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_18_3)
 
 							wait(50)
 							sampSetChatInputText(var_18_4)
@@ -963,9 +963,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "183" or var_8_1 == "241" or var_8_1 == "30" or var_8_1 == "22" or var_8_1 == "7" or var_8_1 == "33" or var_8_1 == "40" or var_8_1 == "245" then
 					if var_8_1 == "183" or var_8_1 == "241" or var_8_1 == "30" or var_8_1 == "22" or var_8_1 == "7" or var_8_1 == "33" then
 						lua_thread.create(function()
-							local var_19_0 = "Skin 40 | Г† | 500.000(350.000 ГЇГ°ГЁ /boostinfo)"
+							local var_19_0 = "Skin 40 | Ж | 500.000(350.000 при /boostinfo)"
 							local var_19_1, var_19_2, var_19_3 = string.match(var_19_0, "Skin (.+) | (.+) | (.+)")
-							local var_19_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_19_3)
+							local var_19_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_19_3)
 
 							wait(50)
 							sampSetChatInputText(var_19_4)
@@ -973,9 +973,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "40" or var_8_1 == "245" then
 						lua_thread.create(function()
-							local var_20_0 = "Skin 40 | Г† | 500.000(350.000 ГЇГ°ГЁ /boostinfo)"
+							local var_20_0 = "Skin 40 | Ж | 500.000(350.000 при /boostinfo)"
 							local var_20_1, var_20_2, var_20_3 = string.match(var_20_0, "Skin (.+) | (.+) | (.+)")
-							local var_20_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_20_3)
+							local var_20_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_20_3)
 
 							wait(50)
 							sampSetChatInputText(var_20_4)
@@ -985,9 +985,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "154" or var_8_1 == "84" or var_8_1 == "185" or var_8_1 == "166" or var_8_1 == "291" or var_8_1 == "255" or var_8_1 == "21" or var_8_1 == "42" or var_8_1 == "25" or var_8_1 == "188" or var_8_1 == "238" or var_8_1 == "192" or var_8_1 == "215" then
 					if var_8_1 == "154" or var_8_1 == "84" or var_8_1 == "185" or var_8_1 == "166" or var_8_1 == "291" or var_8_1 == "255" or var_8_1 == "21" or var_8_1 == "42" or var_8_1 == "25" or var_8_1 == "188" then
 						lua_thread.create(function()
-							local var_21_0 = "Skin 238 | Г† | 1.000.000(700.000 ГЇГ°ГЁ /boostinfo)"
+							local var_21_0 = "Skin 238 | Ж | 1.000.000(700.000 при /boostinfo)"
 							local var_21_1, var_21_2, var_21_3 = string.match(var_21_0, "Skin (.+) | (.+) | (.+)")
-							local var_21_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_21_3)
+							local var_21_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_21_3)
 
 							wait(50)
 							sampSetChatInputText(var_21_4)
@@ -995,9 +995,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "238" or var_8_1 == "192" or var_8_1 == "215" then
 						lua_thread.create(function()
-							local var_22_0 = "Skin 238 | Г† | 1.000.000(700.000 ГЇГ°ГЁ /boostinfo)"
+							local var_22_0 = "Skin 238 | Ж | 1.000.000(700.000 при /boostinfo)"
 							local var_22_1, var_22_2, var_22_3 = string.match(var_22_0, "Skin (.+) | (.+) | (.+)")
-							local var_22_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_22_3)
+							local var_22_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_22_3)
 
 							wait(50)
 							sampSetChatInputText(var_22_4)
@@ -1007,9 +1007,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "20" or var_8_1 == "28" or var_8_1 == "29" or var_8_1 == "142" or var_8_1 == "19" or var_8_1 == "177" or var_8_1 == "176" or var_8_1 == "180" or var_8_1 == "47" or var_8_1 == "48" or var_8_1 == "97" or var_8_1 == "4" or var_8_1 == "82" or var_8_1 == "250" or var_8_1 == "242" or var_8_1 == "227" or var_8_1 == "228" or var_8_1 == "121" or var_8_1 == "247" or var_8_1 == "117" or var_8_1 == "258" or var_8_1 == "259" or var_8_1 == "18" or var_8_1 == "45" or var_8_1 == "249" or var_8_1 == "83" or var_8_1 == "273" or var_8_1 == "123" or var_8_1 == "111" or var_8_1 == "124" or var_8_1 == "170" or var_8_1 == "12" or var_8_1 == "93" or var_8_1 == "172" or var_8_1 == "211" or var_8_1 == "224" or var_8_1 == "251" or var_8_1 == "233" then
 					if var_8_1 == "20" or var_8_1 == "28" or var_8_1 == "29" or var_8_1 == "142" or var_8_1 == "19" or var_8_1 == "177" or var_8_1 == "176" or var_8_1 == "180" or var_8_1 == "47" or var_8_1 == "48" or var_8_1 == "97" or var_8_1 == "4" or var_8_1 == "82" or var_8_1 == "250" or var_8_1 == "242" or var_8_1 == "227" or var_8_1 == "228" or var_8_1 == "121" or var_8_1 == "247" or var_8_1 == "117" or var_8_1 == "258" or var_8_1 == "259" or var_8_1 == "18" or var_8_1 == "45" or var_8_1 == "249" or var_8_1 == "83" or var_8_1 == "273" or var_8_1 == "123" or var_8_1 == "111" or var_8_1 == "124" or var_8_1 == "170" then
 						lua_thread.create(function()
-							local var_23_0 = "Skin 20 | M | 2.000.000(1.400.000 ГЇГ°ГЁ /boostinfo)"
+							local var_23_0 = "Skin 20 | M | 2.000.000(1.400.000 при /boostinfo)"
 							local var_23_1, var_23_2, var_23_3 = string.match(var_23_0, "Skin (.+) | (.+) | (.+)")
-							local var_23_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_23_3)
+							local var_23_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_23_3)
 
 							wait(50)
 							sampSetChatInputText(var_23_4)
@@ -1017,9 +1017,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "12" or var_8_1 == "93" or var_8_1 == "172" or var_8_1 == "211" or var_8_1 == "224" or var_8_1 == "251" or var_8_1 == "233" then
 						lua_thread.create(function()
-							local var_24_0 = "Skin 20 | M | 2.000.000(1.400.000 ГЇГ°ГЁ /boostinfo)"
+							local var_24_0 = "Skin 20 | M | 2.000.000(1.400.000 при /boostinfo)"
 							local var_24_1, var_24_2, var_24_3 = string.match(var_24_0, "Skin (.+) | (.+) | (.+)")
-							local var_24_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_24_3)
+							local var_24_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_24_3)
 
 							wait(50)
 							sampSetChatInputText(var_24_4)
@@ -1029,9 +1029,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "299" or var_8_1 == "119" or var_8_1 == "292" or var_8_1 == "293" or var_8_1 == "297" or var_8_1 == "296" or var_8_1 == "3" or var_8_1 == "289" or var_8_1 == "127" or var_8_1 == "118" or var_8_1 == "112" or var_8_1 == "152" or var_8_1 == "216" or var_8_1 == "219" or var_8_1 == "298" then
 					if var_8_1 == "299" or var_8_1 == "119" or var_8_1 == "292" or var_8_1 == "293" or var_8_1 == "297" or var_8_1 == "296" or var_8_1 == "3" or var_8_1 == "289" or var_8_1 == "127" or var_8_1 == "118" or var_8_1 == "112" then
 						lua_thread.create(function()
-							local var_25_0 = "Skin 152 | Г† | 6.000.000(4.200.000 ГЇГ°ГЁ /boostinfo)"
+							local var_25_0 = "Skin 152 | Ж | 6.000.000(4.200.000 при /boostinfo)"
 							local var_25_1, var_25_2, var_25_3 = string.match(var_25_0, "Skin (.+) | (.+) | (.+)")
-							local var_25_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_25_3)
+							local var_25_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_25_3)
 
 							wait(50)
 							sampSetChatInputText(var_25_4)
@@ -1039,9 +1039,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "152" or var_8_1 == "216" or var_8_1 == "219" or var_8_1 == "298" then
 						lua_thread.create(function()
-							local var_26_0 = "Skin 152 | Г† | 6.000.000(4.200.000 ГЇГ°ГЁ /boostinfo)"
+							local var_26_0 = "Skin 152 | Ж | 6.000.000(4.200.000 при /boostinfo)"
 							local var_26_1, var_26_2, var_26_3 = string.match(var_26_0, "Skin (.+) | (.+) | (.+)")
-							local var_26_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_26_3)
+							local var_26_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_26_3)
 
 							wait(50)
 							sampSetChatInputText(var_26_4)
@@ -1051,9 +1051,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "61" or var_8_1 == "5" or var_8_1 == "126" or var_8_1 == "290" or var_8_1 == "248" or var_8_1 == "223" or var_8_1 == "144" or var_8_1 == "208" or var_8_1 == "272" or var_8_1 == "261" or var_8_1 == "190" or var_8_1 == "237" or var_8_1 == "148" or var_8_1 == "263" then
 					if var_8_1 == "61" or var_8_1 == "5" or var_8_1 == "126" or var_8_1 == "290" or var_8_1 == "248" or var_8_1 == "223" or var_8_1 == "144" or var_8_1 == "208" or var_8_1 == "272" or var_8_1 == "261" then
 						lua_thread.create(function()
-							local var_27_0 = "Skin 190 | Г† | 8.000.000(5.600.000 ГЇГ°ГЁ /boostinfo)"
+							local var_27_0 = "Skin 190 | Ж | 8.000.000(5.600.000 при /boostinfo)"
 							local var_27_1, var_27_2, var_27_3 = string.match(var_27_0, "Skin (.+) | (.+) | (.+)")
-							local var_27_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_27_3)
+							local var_27_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_27_3)
 
 							wait(50)
 							sampSetChatInputText(var_27_4)
@@ -1061,9 +1061,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "190" or var_8_1 == "237" or var_8_1 == "148" or var_8_1 == "263" then
 						lua_thread.create(function()
-							local var_28_0 = "Skin 190 | Г† | 8.000.000(5.600.000 ГЇГ°ГЁ /boostinfo)"
+							local var_28_0 = "Skin 190 | Ж | 8.000.000(5.600.000 при /boostinfo)"
 							local var_28_1, var_28_2, var_28_3 = string.match(var_28_0, "Skin (.+) | (.+) | (.+)")
-							local var_28_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_28_3)
+							local var_28_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_28_3)
 
 							wait(50)
 							sampSetChatInputText(var_28_4)
@@ -1073,9 +1073,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "294" or var_8_1 == "295" or var_8_1 == "100" or var_8_1 == "46" or var_8_1 == "113" or var_8_1 == "125" or var_8_1 == "76" or var_8_1 == "91" or var_8_1 == "141" or var_8_1 == "150" or var_8_1 == "169" or var_8_1 == "214" then
 					if var_8_1 == "294" or var_8_1 == "295" or var_8_1 == "100" or var_8_1 == "46" or var_8_1 == "113" or var_8_1 == "125" then
 						lua_thread.create(function()
-							local var_29_0 = "Skin 76 | Г† | 10.000.000(7.000.000 ГЇГ°ГЁ /boostinfo)"
+							local var_29_0 = "Skin 76 | Ж | 10.000.000(7.000.000 при /boostinfo)"
 							local var_29_1, var_29_2, var_29_3 = string.match(var_29_0, "Skin (.+) | (.+) | (.+)")
-							local var_29_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_29_3)
+							local var_29_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_29_3)
 
 							wait(50)
 							sampSetChatInputText(var_29_4)
@@ -1083,9 +1083,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "76" or var_8_1 == "91" or var_8_1 == "141" or var_8_1 == "150" or var_8_1 == "169" or var_8_1 == "214" then
 						lua_thread.create(function()
-							local var_30_0 = "Skin 76 | Г† | 10.000.000(7.000.000 ГЇГ°ГЁ /boostinfo)"
+							local var_30_0 = "Skin 76 | Ж | 10.000.000(7.000.000 при /boostinfo)"
 							local var_30_1, var_30_2, var_30_3 = string.match(var_30_0, "Skin (.+) | (.+) | (.+)")
-							local var_30_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_30_3)
+							local var_30_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_30_3)
 
 							wait(50)
 							sampSetChatInputText(var_30_4)
@@ -1095,9 +1095,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 				elseif var_8_1 == "51" or var_8_1 == "52" or var_8_1 == "72" or var_8_1 == "94" or var_8_1 == "133" or var_8_1 == "206" or var_8_1 == "262" or var_8_1 == "85" or var_8_1 == "87" or var_8_1 == "138" or var_8_1 == "139" or var_8_1 == "244" or var_8_1 == "257" or var_8_1 == "256" then
 					if var_8_1 == "51" or var_8_1 == "52" or var_8_1 == "72" or var_8_1 == "94" or var_8_1 == "133" or var_8_1 == "206" or var_8_1 == "262" then
 						lua_thread.create(function()
-							local var_31_0 = "Skin 85 | Г† | 20.000.000(14.000.000 ГЇГ°ГЁ /boostinfo)"
+							local var_31_0 = "Skin 85 | Ж | 20.000.000(14.000.000 при /boostinfo)"
 							local var_31_1, var_31_2, var_31_3 = string.match(var_31_0, "Skin (.+) | (.+) | (.+)")
-							local var_31_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "ГЊ", var_31_3)
+							local var_31_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "М", var_31_3)
 
 							wait(50)
 							sampSetChatInputText(var_31_4)
@@ -1105,9 +1105,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 						end)
 					elseif var_8_1 == "85" or var_8_1 == "87" or var_8_1 == "138" or var_8_1 == "139" or var_8_1 == "244" or var_8_1 == "257" or var_8_1 == "256" then
 						lua_thread.create(function()
-							local var_32_0 = "Skin 85 | Г† | 20.000.000(14.000.000 ГЇГ°ГЁ /boostinfo)"
+							local var_32_0 = "Skin 85 | Ж | 20.000.000(14.000.000 при /boostinfo)"
 							local var_32_1, var_32_2, var_32_3 = string.match(var_32_0, "Skin (.+) | (.+) | (.+)")
-							local var_32_4 = string.format("/pm %s Г‘ГЄГЁГ­ | ID: %s | %s | %s", var_8_0, var_8_1, "Г†", var_32_3)
+							local var_32_4 = string.format("/pm %s Скин | ID: %s | %s | %s", var_8_0, var_8_1, "Ж", var_32_3)
 
 							wait(50)
 							sampSetChatInputText(var_32_4)
@@ -1116,10 +1116,10 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 					end
 				end
 			else
-				sampAddChatMessage(" Г‘ГЄГЁГ­ '" .. var_8_1 .. "' Г­ГҐ Г­Г Г©Г¤ГҐГ­. ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г±ГІГј Г­Г ГЇГЁГ±Г Г­ГЁГї!", -1)
+				sampAddChatMessage(" Скин '" .. var_8_1 .. "' не найден. Проверьте правильность написания!", -1)
 			end
 		else
-			sampAddChatMessage(" /skinid [ID] [ID Г±ГЄГЁГ­Г ]", -1)
+			sampAddChatMessage(" /skinid [ID] [ID скина]", -1)
 		end
 	end)
 	sampRegisterChatCommand("lasup", function()
@@ -1222,9 +1222,9 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			DialogText = string.format("%s\t%s / %s\t%s\t%s\n%s", var_34_2[iter_34_1], var_34_1[iter_34_1], var_34_3[var_34_2[iter_34_1]], var_34_4[var_34_2[iter_34_1]], var_34_4[var_34_2[iter_34_1]] * 30000, DialogText)
 		end
 
-		DialogText = "Г„Г ГІГ \tГЋГІГўГҐГІГ» / ГЋГІГў.(!)\tPayDay\tГ‡Г Г°ГЇГ«Г ГІГ \n" .. DialogText .. "\nГ‚Г±ГҐГЈГ®:\t" .. var_34_7 .. " / " .. var_34_8 .. "\t" .. var_34_6 .. "\t" .. var_34_6 * 30000 .. "\nГЋГІГўГҐГІГ»(w): \t" .. var_0_77.Weekset.online .. " / " .. var_0_77.Weekset.onlinereting
+		DialogText = "Дата\tОтветы / Отв.(!)\tPayDay\tЗарплата\n" .. DialogText .. "\nВсего:\t" .. var_34_7 .. " / " .. var_34_8 .. "\t" .. var_34_6 .. "\t" .. var_34_6 * 30000 .. "\nОтветы(w): \t" .. var_0_77.Weekset.online .. " / " .. var_0_77.Weekset.onlinereting
 
-		sampShowDialog(8228, "Support Helper | Samp-RP", DialogText, "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 5)
+		sampShowDialog(8228, "Support Helper | Samp-RP", DialogText, "Выбрать", "Назад", 5)
 	end)
 	sampRegisterChatCommand("shelper", function()
 		var_0_88.imgui_active3.v = not var_0_88.imgui_active3.v
@@ -1314,13 +1314,13 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 
 		if editingPos and var_0_88.active6.v then
 			showCursor(true)
-			renderFontDrawText(font, "{" .. var_0_76.tag.color .. "}" .. "ГЉГ ГЄ ГЇГ®Г¤Г­ГїГІГј ГЎГ ГЎГ«Г ?", var_0_80, var_0_81, -1)
+			renderFontDrawText(font, "{" .. var_0_76.tag.color .. "}" .. "Как поднять бабла?", var_0_80, var_0_81, -1)
 
 			curX, curY = getCursorPos()
 			var_0_80, var_0_81 = curX, curY
 
 			if wasKeyPressed(32) then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}ГЌГ®ГўГ®ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г®{FFFFFF}: {FFE4B5}Г•: {00BFFF}" .. curX .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curY, 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Новое положение {FFA500}сохранено{FFFFFF}: {FFE4B5}Х: {00BFFF}" .. curX .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curY, 16776960)
 
 				editingPos = false
 
@@ -1334,7 +1334,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 		if not editingPosP3 and var_0_88.activeokno_infoscreen_otvet_.v then
 			local var_6_6 = var_0_76.posT2.xx
 			local var_6_7 = var_0_76.posT2.yy
-			local var_6_8 = "Г‘ГҐГЈГ®Г¤Г­ГїГёГ­ГїГї Г¤Г ГІГ : " .. os.date("%d.%m.%Y") .. "\nГЋГІГўГҐГІГ» / ГЋГІГў.(!): " .. var_0_88.infoscreenaOtvet .. " / " .. var_0_88.infoscreenaRotvet .. "\nPayDay: " .. var_0_88.infoscreen_aHour .. "\nГ‡Г Г°ГЇГ«Г ГІГ : " .. var_0_88.infoscreen_aHour * 30000
+			local var_6_8 = "Сегодняшняя дата: " .. os.date("%d.%m.%Y") .. "\nОтветы / Отв.(!): " .. var_0_88.infoscreenaOtvet .. " / " .. var_0_88.infoscreenaRotvet .. "\nPayDay: " .. var_0_88.infoscreen_aHour .. "\nЗарплата: " .. var_0_88.infoscreen_aHour * 30000
 
 			renderFontDrawText(font3, "{" .. var_0_76.tag.color .. "}" .. var_6_8, var_6_6, var_6_7, -1)
 		end
@@ -1346,7 +1346,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			local var_6_10 = 4294967295
 
 			if #var_0_46 == 0 then
-				local var_6_11 = "Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г®ГІГ®ГЎГ°Г Г¦Г ГІГјГ±Гї Г®ГЄГ­Г® Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ"
+				local var_6_11 = "Здесь будет отображаться окно с вопросами"
 				local var_6_12 = 4294967295
 
 				renderDrawBox(var_0_82, var_0_83, renderGetFontDrawTextLength(font1, var_6_11) + 5, renderGetFontDrawHeight(font1) + (var_6_9 == 0 and 5 or 0), 1342177280)
@@ -1355,7 +1355,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 
 			for iter_6_6 = var_0_48 == 0 and #var_0_46 or #var_0_46 - var_0_48, var_0_48 == 0 and #var_0_46 - var_0_76.tag.global_Line - var_0_48 + 1 or #var_0_46 - var_0_76.tag.global_Line - var_0_48 - var_0_48 + 1, -1 do
 				if var_0_46[iter_6_6] ~= nil then
-					local var_6_13, var_6_14 = string.match(var_0_46[iter_6_6], "Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%]<%d+lvl>: (.+)")
+					local var_6_13, var_6_14 = string.match(var_0_46[iter_6_6], "Вопрос .+%[(%d+)%]<%d+lvl>: (.+)")
 					local var_6_15 = (" " or " ") .. "[" .. var_6_9 .. "] " .. var_0_46[iter_6_6]
 
 					if #var_0_53 < #var_6_15 then
@@ -1382,7 +1382,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			var_0_82, var_0_83 = curXX, curYY
 
 			if wasKeyPressed(32) then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}ГЌГ®ГўГ®ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г®{FFFFFF}: {FFE4B5}Г•: {00BFFF}" .. curXX .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY, 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Новое положение {FFA500}сохранено{FFFFFF}: {FFE4B5}Х: {00BFFF}" .. curXX .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY, 16776960)
 
 				editingPosP = false
 
@@ -1399,7 +1399,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			local var_6_17 = 0
 
 			if #var_0_47 == 0 then
-				local var_6_18 = "Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г®ГІГ®ГЎГ°Г Г¦Г ГІГјГ±Гї ГўГ»ГўГҐГ¤ГҐГ­Г­Г»Г© Г·Г ГІ ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў"
+				local var_6_18 = "Здесь будет отображаться выведенный чат игровых помощников"
 				local var_6_19 = 4294967295
 
 				renderDrawBox(var_0_84, var_0_85, renderGetFontDrawTextLength(font1, var_6_18) + 5, renderGetFontDrawHeight(font1) + (var_6_17 == 0 and 5 or 0), 1342177280)
@@ -1430,7 +1430,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			var_0_84, var_0_85 = curXX1, curYY1
 
 			if wasKeyPressed(32) then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}ГЌГ®ГўГ®ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г®{FFFFFF}: {FFE4B5}Г•: {00BFFF}" .. curXX1 .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY1, 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Новое положение {FFA500}сохранено{FFFFFF}: {FFE4B5}Х: {00BFFF}" .. curXX1 .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY1, 16776960)
 
 				editingPosP2 = false
 
@@ -1444,7 +1444,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 		if editingPosP3 and var_0_88.activeokno_infoscreen_otvet_.v then
 			showCursor(true)
 
-			local var_6_23 = "Г‘ГҐГЈГ®Г¤Г­ГїГёГ­ГїГї Г¤Г ГІГ : " .. os.date("%d.%m.%Y") .. "\nГЋГІГўГҐГІГ» / ГЋГІГў.(!): " .. var_0_88.infoscreenaOtvet .. "/" .. var_0_88.infoscreenaRotvet .. "\nPayDay: " .. var_0_88.infoscreen_aHour .. "\nГ‡Г Г°ГЇГ«Г ГІГ :" .. var_0_88.infoscreen_aHour * 30000
+			local var_6_23 = "Сегодняшняя дата: " .. os.date("%d.%m.%Y") .. "\nОтветы / Отв.(!): " .. var_0_88.infoscreenaOtvet .. "/" .. var_0_88.infoscreenaRotvet .. "\nPayDay: " .. var_0_88.infoscreen_aHour .. "\nЗарплата:" .. var_0_88.infoscreen_aHour * 30000
 
 			renderFontDrawText(font3, "{" .. var_0_76.tag.color .. "}" .. var_6_23, var_0_86, var_0_87, -1)
 
@@ -1452,7 +1452,7 @@ sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 			var_0_86, var_0_87 = curXX2, curYY2
 
 			if wasKeyPressed(32) then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}ГЌГ®ГўГ®ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г®{FFFFFF}: {FFE4B5}Г•: {00BFFF}" .. curXX2 .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY2, 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Новое положение {FFA500}сохранено{FFFFFF}: {FFE4B5}Х: {00BFFF}" .. curXX2 .. "{FFFFFF}, {FFE4B5}Y: {00BFFF}" .. curYY2, 16776960)
 
 				editingPosP3 = false
 
@@ -1538,7 +1538,7 @@ function convertDataToString(arg_37_0)
 end
 
 function doDialog()
-	if sampGetDialogCaption() == "ГЏГ®ГЁГ±ГЄ Г«ГЁГ¤ГҐГ°Г®Гў" then
+	if sampGetDialogCaption() == "Поиск лидеров" then
 		local var_38_0, var_38_1, var_38_2, var_38_3 = sampHasDialogRespond(2256)
 
 		if var_38_0 and var_38_1 == 1 and dliaders ~= nil and dliaders[var_38_2 + 1] ~= nil then
@@ -1575,7 +1575,7 @@ function doWindow()
 		local var_39_4 = 4294967295
 
 		if #var_0_46 == 0 then
-			local var_39_5 = "Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г®ГІГ®ГЎГ°Г Г¦Г ГІГјГ±Гї Г®ГЄГ­Г® Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ"
+			local var_39_5 = "Здесь будет отображаться окно с вопросами"
 			local var_39_6 = 4294967295
 
 			renderDrawBox(var_39_0, var_39_1, renderGetFontDrawTextLength(font1, var_39_5) + 5, renderGetFontDrawHeight(font1) + (var_39_3 == 0 and 5 or 0), 1342177280)
@@ -1584,7 +1584,7 @@ function doWindow()
 
 		for iter_39_0 = var_0_48 == 0 and #var_0_46 or #var_0_46 - var_0_48, var_0_48 == 0 and #var_0_46 - var_0_76.tag.global_Line - var_0_48 + 1 or #var_0_46 - var_0_76.tag.global_Line - var_0_48 - var_0_48 + 1, -1 do
 			if var_0_46[iter_39_0] ~= nil then
-				local var_39_7, var_39_8 = string.match(var_0_46[iter_39_0], "Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%]<%d+lvl>: (.+)")
+				local var_39_7, var_39_8 = string.match(var_0_46[iter_39_0], "Вопрос .+%[(%d+)%]<%d+lvl>: (.+)")
 				local var_39_9 = (" " or " ") .. "[" .. var_39_3 .. "] " .. var_0_46[iter_39_0]
 
 				if #var_0_53 < #var_39_9 then
@@ -1633,7 +1633,7 @@ function doWindow()
 
 		if #var_0_47 == 0 then
 			local var_39_14 = 4294967295
-			local var_39_15 = "Г‡Г¤ГҐГ±Гј ГЎГіГ¤ГҐГІ Г®ГІГ®ГЎГ°Г Г¦Г ГІГјГ±Гї ГўГ»ГўГҐГ¤ГҐГ­Г­Г»Г© Г·Г ГІ ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў"
+			local var_39_15 = "Здесь будет отображаться выведенный чат игровых помощников"
 
 			renderDrawBox(var_39_10, var_39_11, renderGetFontDrawTextLength(font1, var_39_15) + 5, renderGetFontDrawHeight(font1) + (var_39_13 == 0 and 5 or 0), 1342177280)
 			renderFontDrawText(font1, var_39_15, var_39_10, var_39_11, var_39_14)
@@ -1715,17 +1715,17 @@ end
 
 function var_0_5.onServerMessage(arg_41_0, arg_41_1)
 	
-if arg_41_1 == " Г‚Г» Г­ГҐ Г±Г ГЇГЇГ®Г°ГІ" then
+if arg_41_1 == " Вы не саппорт" then
 		var_0_88.activeAutoSduty.v = false
 		var_0_76.tag.activeAutoSduty = false
 
 		savesettings()
-		sampAddChatMessage(var_0_13 .. " {FFFFFF}ГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г­Г Г·Г Г«Г® Г°Г ГЎГ®Г·ГҐГЈГ® Г¤Г­Гї {FF0000}Г®ГІГЄГ«ГѕГ·ГҐГ­", 16776960)
+		sampAddChatMessage(var_0_13 .. " {FFFFFF}Автоматическое начало рабочего дня {FF0000}отключен", 16776960)
 
 		var_0_42 = 0
 	end
 
-	if arg_41_1 == " ГђГ ГЎГ®Г·ГЁГ© Г¤ГҐГ­Гј Г­Г Г·Г ГІ" and var_0_43 then
+	if arg_41_1 == " Рабочий день начат" and var_0_43 then
 		if var_0_42 == 2 then
 			var_0_42 = 0
 		end
@@ -1736,7 +1736,7 @@ if arg_41_1 == " Г‚Г» Г­ГҐ Г±Г ГЇГЇГ®Г°ГІ" then
 		savesettings()
 	end
 
-	if arg_41_1 == " ГђГ ГЎГ®Г·ГЁГ© Г¤ГҐГ­Гј Г§Г ГЄГ®Г­Г·ГҐГ­" and var_0_43 then
+	if arg_41_1 == " Рабочий день закончен" and var_0_43 then
 		if var_0_42 == 2 then
 			var_0_42 = 1
 		end
@@ -1745,7 +1745,7 @@ if arg_41_1 == " Г‚Г» Г­ГҐ Г±Г ГЇГЇГ®Г°ГІ" then
 end
 if var_0_88.aifaqsystem.v then
 
-	if arg_41_1:find("Г‚Г®ГЇГ°Г®Г±") then
+	if arg_41_1:find("Вопрос") then
 
 		local id = arg_41_1:match("%[(%d+)%]")
 		local question = arg_41_1:match(":%s(.+)")
@@ -1757,7 +1757,7 @@ if var_0_88.aifaqsystem.v then
 			pendingQuestions[id] = question
 
 			sampAddChatMessage(
-				"{FFFF00}Support Helper |  Г‚Г®ГЇГ°Г®Г± Г±Г®ГµГ°Г Г­ГҐГ­!",
+				"{FFFF00}Support Helper |  Вопрос сохранен!",
 				-1
 			)
 		end
@@ -1782,7 +1782,7 @@ if var_0_88.aifaqsystem.v then
 				saveFaqDatabase()
 
 				sampAddChatMessage(
-					"{FFFF00}Support Helper |  ГЋГІГўГҐГІ Г±Г®ГµГ°Г Г­ГҐГ­!",
+					"{FFFF00}Support Helper |  Ответ сохранен!",
 					-1
 				)
 
@@ -1796,15 +1796,15 @@ end
 		var_0_43 = false
 	end
 
-	if arg_41_1 == " ГЌГҐ ГґГ«ГіГ¤ГЁ!" and var_0_42 == 2 then
+	if arg_41_1 == " Не флуди!" and var_0_42 == 2 then
 		var_0_42 = 1
 	end
 	if var_0_88.aifaqsystem.v then
-	-- sampAddChatMessage("[AI DEBUG] " .. arg_41_1, -1) Г¤ГҐГЎГ ГЈ Г®ГЎГ°Г ГЎГ®ГІГЄГЁ Г±ГҐГ°ГўГҐГ°Г­Г»Гµ Г±Г®Г®ГЎГ№ГҐГ­ГЁГЁ
+	-- sampAddChatMessage("[AI DEBUG] " .. arg_41_1, -1) дебаг обработки серверных сообщении
 end
 
-	if string.find(arg_41_1, "..Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%].+") and not arg_41_1:find("(.+) ..Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%].+") then
-		local var_41_0, var_41_1 = string.match(arg_41_1, "..Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%]<%d+lvl>: (.+)")
+	if string.find(arg_41_1, "..Вопрос .+%[(%d+)%].+") and not arg_41_1:find("(.+) ..Вопрос .+%[(%d+)%].+") then
+		local var_41_0, var_41_1 = string.match(arg_41_1, "..Вопрос .+%[(%d+)%]<%d+lvl>: (.+)")
 
 		var_0_45 = var_41_0
 		var_0_44[var_0_45] = var_41_1
@@ -1822,13 +1822,13 @@ end
 	if foundAnswer then
 
 		sampAddChatMessage(
-			"{FFFF00}Support Helper |  ГЌГ Г©Г¤ГҐГ­ Г®ГІГўГҐГІ: " .. foundAnswer,
+			"{FFFF00}Support Helper |  Найден ответ: " .. foundAnswer,
 			-1
 		)
 	end
 
 	sampAddChatMessage(
-		"{FFFF00}Support Helper | {ffffff}Г‚Г®ГЇГ°Г®Г± Г±Г®ГµГ°Г Г­ГҐГ­!",
+		"{FFFF00}Support Helper | {ffffff}Вопрос сохранен!",
 		-1
 	)
 
@@ -1850,7 +1850,7 @@ end
 		end)
 	end
 
-	if string.find(arg_41_1, "Г‚Г» Г®ГІГўГҐГІГЁГ«ГЁ Г­Г  ГўГ®ГЇГ°Г®Г± ГЁГ§ Г±ГЇГЁГ±ГЄГ . Г‚Г®ГЇГ°Г®Г± Г­ГЁГ¦ГҐ ГіГ¤Г Г«ГҐГ­") and arg_41_0 == 1790050303 then
+	if string.find(arg_41_1, "Вы ответили на вопрос из списка. Вопрос ниже удален") and arg_41_0 == 1790050303 then
 		lua_thread.create(function()
 			local var_43_0 = io.open("moonloader\\config\\Support Helper\\pm.ini", "a")
 
@@ -1878,12 +1878,12 @@ end
 		end, arg_41_1)
 	end
 
-	if string.find(arg_41_1, " Г„Г®Г¬: .+ | ГЉГ«Г Г±Г±: .+ | Г–ГҐГ­Г : .+ ГўГЁГ°ГІ") and var_0_51 == 1 then
+	if string.find(arg_41_1, " Дом: .+ | Класс: .+ | Цена: .+ вирт") and var_0_51 == 1 then
 		var_0_52 = arg_41_1
 		var_0_51 = 2
 	end
 
-	if arg_41_1 == " Г‚Г» Г­ГҐ ГІГ ГЄГ±ГЁГ±ГІ ГЁГ«ГЁ Г­ГҐ Г­Г  Г±Г«ГіГ¦ГЎГҐ" then
+	if arg_41_1 == " Вы не таксист или не на службе" then
 		sfarmID = nil
 	end
 
@@ -1990,7 +1990,7 @@ end
 		end
 	end
 
-	if var_0_76.tag.activevop and arg_41_1:find("..Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%].+") and not arg_41_1:find("(.+) ..Г‚Г®ГЇГ°Г®Г± .+%[(%d+)%].+") then
+	if var_0_76.tag.activevop and arg_41_1:find("..Вопрос .+%[(%d+)%].+") and not arg_41_1:find("(.+) ..Вопрос .+%[(%d+)%].+") then
 		local var_41_36 = "0x" .. var_0_76.tag.vopchatcolor .. "AA"
 
 		return {
@@ -2019,7 +2019,7 @@ end
 end
 
 function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, arg_45_5)
-	if arg_45_1 == 5 and string.find(arg_45_5, "Г”Г°Г ГЄГ¶ГЁГї") and arg_45_2 == "Г‹ГЁГ¤ГҐГ°Г»" and sleaders ~= nil then
+	if arg_45_1 == 5 and string.find(arg_45_5, "Фракция") and arg_45_2 == "Лидеры" and sleaders ~= nil then
 		leaders = ""
 		dliaders = {}
 
@@ -2028,7 +2028,7 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 				local var_45_0, var_45_1 = iter_45_0.match(iter_45_0, "%[%d+%] (.+)\t(.+)")
 
 				if iter_45_0.find(var_45_1:lower(), sleaders:lower()) then
-                dliaders[#dliaders + 1] = "ГЌГЁГЄ Г«ГЁГ¤ГҐГ°Г : " .. var_45_0 .. " | Г”Г°Г ГЄГ¶ГЁГї: " .. var_45_1
+                dliaders[#dliaders + 1] = "Ник лидера: " .. var_45_0 .. " | Фракция: " .. var_45_1
 					leaders = leaders .. dliaders[#dliaders] .. "\n"
 				end
 			end
@@ -2037,9 +2037,9 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 		if checkLeaders then
 			lua_thread.create(function()
 				if #leaders > 0 then
-					sampShowDialog(2256, "ГЏГ®ГЁГ±ГЄ Г«ГЁГ¤ГҐГ°Г®Гў", "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г±ГІГ°Г®ГЄГі Г·ГІГ®ГЎГ» ГўГ±ГІГ ГўГЁГІГј Гў Г·Г ГІ\n" .. leaders, "Г‚Г»ГЎГ°Г ГІГј", "Г‡Г ГЄГ°Г»ГІГј", 5)
+					sampShowDialog(2256, "Поиск лидеров", "Нажмите на строку чтобы вставить в чат\n" .. leaders, "Выбрать", "Закрыть", 5)
 				else
-					sampShowDialog(0, "ГЏГ®ГЁГ±ГЄ Г«ГЁГ¤ГҐГ°Г®Гў", "{FFFFFF}ГЏГ®ГЁГ±ГЄ ГЇГ® Г§Г ГЇГ°Г®Г±Гі: '" .. sleaders .. "' Г­ГҐ Г¤Г Г« Г°ГҐГ§ГіГ«ГјГІГ ГІГ®Гў", "Г‚Г»ГЎГ°Г ГІГј", "Г‡Г ГЄГ°Г»ГІГј", 0)
+					sampShowDialog(0, "Поиск лидеров", "{FFFFFF}Поиск по запросу: '" .. sleaders .. "' не дал результатов", "Выбрать", "Закрыть", 0)
 				end
 			end)
 
@@ -2049,7 +2049,7 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 		end
 	end
 
-	if arg_45_1 == 2 and sfarmID ~= nil and string.find(arg_45_5, "{00AB06}Г”ГҐГ°Г¬ГҐГ°Г®Гў") and string.find(arg_45_5, "{00AB06}ГЏГ°Г®Г°Г ГЎГ®Гў") then
+	if arg_45_1 == 2 and sfarmID ~= nil and string.find(arg_45_5, "{00AB06}Фермеров") and string.find(arg_45_5, "{00AB06}Прорабов") then
 		local var_45_2 = 0
 		local var_45_3 = ""
 
@@ -2057,9 +2057,9 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 			var_45_2 = var_45_2 + 1
 
 			if var_45_2 == 1 then
-				var_45_3 = "/pm " .. sfarmID .. " [Г”ГҐГ°Г¬Г |ГђГ ГЎГ®Г·ГЁГµ|Г‡Г  ГЄГіГ±ГІ] "
+				var_45_3 = "/pm " .. sfarmID .. " [Ферма|Рабочих|За куст] "
 			else
-				local var_45_4, var_45_5, var_45_6 = iter_45_1.match(iter_45_1, "%[.+%] {FFFFFF}%[Г”ГҐГ°Г¬Г  В№(.+)%]  {00AB06}Г”ГҐГ°Г¬ГҐГ°Г®Гў (.+)  {FFFF00}Г–ГҐГ­Г  Г§Г  ГЄГіГ±ГІ (.+)$")
+				local var_45_4, var_45_5, var_45_6 = iter_45_1.match(iter_45_1, "%[.+%] {FFFFFF}%[Ферма №(.+)%]  {00AB06}Фермеров (.+)  {FFFF00}Цена за куст (.+)$")
 
 				var_45_3 = var_45_3 .. "[" .. var_45_4 .. "|" .. var_45_5 .. "|" .. var_45_6:gsub("$", "") .. "] "
 			end
@@ -2075,7 +2075,7 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 		return false
 	end
 
-	if arg_45_1 == 2 and skazID ~= nil and var_0_59 == 2 and string.find(arg_45_5, "ГЊГ ГґГЁГЁ") and arg_45_2 == "ГђГҐГ©ГІГЁГ­ГЈ" then
+	if arg_45_1 == 2 and skazID ~= nil and var_0_59 == 2 and string.find(arg_45_5, "Мафии") and arg_45_2 == "Рейтинг" then
 		lua_thread.create(function(arg_48_0)
 			repeat
 				wait(0)
@@ -2091,7 +2091,7 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 		return false
 	end
 
-	if var_0_59 == 3 and arg_45_2 == "Г€Г±ГІГ®Г°ГЁГї" then
+	if var_0_59 == 3 and arg_45_2 == "История" then
 		lua_thread.create(function(arg_49_0)
 			repeat
 				wait(0)
@@ -2107,11 +2107,11 @@ function var_0_5.onShowDialog(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4, 
 		return false
 	end
 
-	if arg_45_1 == 5 and var_0_59 == 4 and string.find(arg_45_2, "ГЊГҐГ­Гѕ") then
+	if arg_45_1 == 5 and var_0_59 == 4 and string.find(arg_45_2, "Меню") then
 		local var_45_7 = string.match(arg_45_5, "%[3%] (%a+).+")
 		local var_45_8 = string.match(arg_45_5, "%[4%] (%a+).+")
 
-		kaztext = string.format("Г„Г°Г ГЄГ®Г­Г» Гі %s | ГЉГ Г«ГЁГЈГіГ«Г  Гі %s", var_45_7:gsub("Russian", "Russian Mafia"), var_45_8:gsub("Russian", "Russian Mafia"))
+		kaztext = string.format("Драконы у %s | Калигула у %s", var_45_7:gsub("Russian", "Russian Mafia"), var_45_8:gsub("Russian", "Russian Mafia"))
 		var_0_59 = 0
 
 		lua_thread.create(function(arg_50_0, arg_50_1, arg_50_2)
@@ -2173,11 +2173,11 @@ function var_0_5.onSendCommand(arg_52_0)
 
 					if var_53_2 == "S" then
 						if boostCar then
-							sampAddChatMessage(" Г‘ГЄГЁГ¤ГЄГЁ Г¤Г«Гї Г ГўГІГ®Г¬Г®ГЎГЁГ«Гї '" .. sCarName .. "' Г­ГҐГІГі. ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г±ГІГј Г­Г ГЇГЁГ±Г Г­ГЁГї!", -1)
+							sampAddChatMessage(" Скидки для автомобиля '" .. sCarName .. "' нету. Проверьте правильность написания!", -1)
 						else
 							local var_53_6 = var_53_3:gsub("%.", "")
 							local var_53_7 = tonumber(var_53_5) / 100
-							local var_53_8 = string.format("/pm %s%s [%s] [%s] > %s$ > 1 ГЇГ°Г®Г¶ГҐГ­ГІ: %s$", sCarID, var_53_1, var_53_2, var_53_4, "Г–ГҐГ­Г : Г®ГІ " .. var_53_6, var_53_5)
+							local var_53_8 = string.format("/pm %s%s [%s] [%s] > %s$ > 1 процент: %s$", sCarID, var_53_1, var_53_2, var_53_4, "Цена: от " .. var_53_6, var_53_5)
 
 							wait(50)
 							sampSetChatInputText(var_53_8)
@@ -2187,18 +2187,18 @@ function var_0_5.onSendCommand(arg_52_0)
 						local var_53_9 = var_53_3:gsub("%.", "")
 						local var_53_10 = tonumber(var_53_9) - tonumber(var_53_9) * 20 / 100
 						local var_53_11 = tonumber(var_53_5) / 100
-						local var_53_12 = string.format("/pm %s%s [%s] [%s] > %s$ > 1 ГЇГ°Г®Г¶ГҐГ­ГІ: %s$", sCarID, var_53_1, var_53_2, var_53_4, boostCar and "Г–ГҐГ­Г  Г±Г® Г±ГЄГЁГ¤ГЄГ®Г© " .. var_53_10 or "Г–ГҐГ­Г  Гў Г±Г Г«Г®Г­ГҐ " .. var_53_9, var_53_5)
+						local var_53_12 = string.format("/pm %s%s [%s] [%s] > %s$ > 1 процент: %s$", sCarID, var_53_1, var_53_2, var_53_4, boostCar and "Цена со скидкой " .. var_53_10 or "Цена в салоне " .. var_53_9, var_53_5)
 
 						wait(50)
 						sampSetChatInputText(var_53_12)
 						sampSetChatInputEnabled(true)
 					end
 				else
-					sampAddChatMessage(" ГЂГўГІГ®Г¬Г®ГЎГЁГ«Гј '" .. sCarName .. "' Г­ГҐ Г­Г Г©Г¤ГҐГ­. ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г±ГІГј Г­Г ГЇГЁГ±Г Г­ГЁГї!", -1)
+					sampAddChatMessage(" Автомобиль '" .. sCarName .. "' не найден. Проверьте правильность написания!", -1)
 				end
 			end)
 		else
-			sampAddChatMessage(" /car [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ]", -1)
+			sampAddChatMessage(" /car [ID] [Название]", -1)
 		end
 
 		return false
@@ -2225,12 +2225,12 @@ function var_0_5.onSendCommand(arg_52_0)
 					sampSetChatInputText(var_54_3)
 					sampSetChatInputEnabled(true)
 				else
-					sampAddChatMessage(" GPS '" .. var_52_4 .. "' Г­ГҐ Г­Г Г©Г¤ГҐГ­. ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЇГ°Г ГўГЁГ«ГјГ­Г®Г±ГІГј Г­Г ГЇГЁГ±Г Г­ГЁГї!", -1)
+					sampAddChatMessage(" GPS '" .. var_52_4 .. "' не найден. Проверьте правильность написания!", -1)
 				end
 			end)
 		else
-			sampAddChatMessage(" /sgps [ID ГЁГЈГ°Г®ГЄГ ] [ГЌГ Г§ГўГ Г­ГЁГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ]", -1)
-			sampAddChatMessage(" ГЌГ Г·Г­ГЁГІГҐ ГўГўГ®Г¤ В— Г§Г ГІГҐГ¬ ГўГ»ГЎГҐГ°ГЁГІГҐ Г­ГіГ¦Г­Г»Г© ГўГ Г°ГЁГ Г­ГІ ГЁГ§ Г±ГЇГЁГ±ГЄГ ", -1)
+			sampAddChatMessage(" /sgps [ID игрока] [Название организации]", -1)
+			sampAddChatMessage(" Начните ввод — затем выберите нужный вариант из списка", -1)
 		end
 
 		return false
@@ -2466,7 +2466,7 @@ local var_0_91 = {
 	nil,
 	nil,
 	nil,
-	"ВЁ",
+	"Ё",
 	nil,
 	nil,
 	nil,
@@ -2482,7 +2482,7 @@ local var_0_91 = {
 	nil,
 	nil,
 	nil,
-	"Вё",
+	"ё",
 	nil,
 	nil,
 	nil,
@@ -2490,70 +2490,70 @@ local var_0_91 = {
 	nil,
 	nil,
 	nil,
-	"ГЂ",
-	"ГЃ",
-	"Г‚",
-	"Гѓ",
-	"Г„",
-	"Г…",
-	"Г†",
-	"Г‡",
-	"Г€",
-	"Г‰",
-	"ГЉ",
-	"Г‹",
-	"ГЊ",
-	"ГЌ",
-	"ГЋ",
-	"ГЏ",
-	"Гђ",
-	"Г‘",
-	"Г’",
-	"Г“",
-	"Г”",
-	"Г•",
-	"Г–",
-	"Г—",
-	"Г",
-	"Г™",
-	"Гљ",
-	"Г›",
-	"Гњ",
-	"Гќ",
-	"Гћ",
-	"Гџ",
-	"Г ",
-	"ГЎ",
-	"Гў",
-	"ГЈ",
-	"Г¤",
-	"ГҐ",
-	"Г¦",
-	"Г§",
-	"ГЁ",
-	"Г©",
-	"ГЄ",
-	"Г«",
-	"Г¬",
-	"Г­",
-	"Г®",
-	"ГЇ",
-	"Г°",
-	"Г±",
-	"ГІ",
-	"Гі",
-	"Гґ",
-	"Гµ",
-	"Г¶",
-	"Г·",
-	"Гё",
-	"Г№",
-	"Гє",
-	"Г»",
-	"Гј",
-	"ГЅ",
-	"Гѕ",
-	"Гї"
+	"А",
+	"Б",
+	"В",
+	"Г",
+	"Д",
+	"Е",
+	"Ж",
+	"З",
+	"И",
+	"Й",
+	"К",
+	"Л",
+	"М",
+	"Н",
+	"О",
+	"П",
+	"Р",
+	"С",
+	"Т",
+	"У",
+	"Ф",
+	"Х",
+	"Ц",
+	"Ч",
+	"Ш",
+	"Щ",
+	"Ъ",
+	"Ы",
+	"Ь",
+	"Э",
+	"Ю",
+	"Я",
+	"а",
+	"б",
+	"в",
+	"г",
+	"д",
+	"е",
+	"ж",
+	"з",
+	"и",
+	"й",
+	"к",
+	"л",
+	"м",
+	"н",
+	"о",
+	"п",
+	"р",
+	"с",
+	"т",
+	"у",
+	"ф",
+	"х",
+	"ц",
+	"ч",
+	"ш",
+	"щ",
+	"ъ",
+	"ы",
+	"ь",
+	"э",
+	"ю",
+	"я"
 }
 
 function string.rlower(arg_56_0)
@@ -2624,9 +2624,9 @@ function var_0_6.OnDrawFrame()
 
 		var_0_6.SetNextWindowSize(var_0_6.ImVec2(937, 504), var_0_6.Cond.FirstUseEver)
 		var_0_6.SetNextWindowPos(var_0_6.ImVec2(var_0_71 / 2, var_0_72 / 2), var_0_6.Cond.FirstUseEver, var_0_6.ImVec2(0.5, 0.5))
-		var_0_6.Begin(u8("  ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г®ГІГўГҐГІГ®Гў"), var_0_88.imgui_active, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse)
+		var_0_6.Begin(u8("  Настройка ответов"), var_0_88.imgui_active, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse)
 
-		if not var_0_40 and var_0_6.Combo(u8("Г‘ГЇГЁГ±Г®ГЄ"), var_0_61, var_0_60) and var_0_61.v ~= 0 and var_0_61.v ~= #var_0_60 then
+		if not var_0_40 and var_0_6.Combo(u8("Список"), var_0_61, var_0_60) and var_0_61.v ~= 0 and var_0_61.v ~= #var_0_60 then
 			var_0_74.v = u8(var_0_36[var_0_61.v].name)
 			var_0_75.v = string.gsub(u8(var_0_36[var_0_61.v].text1), "&", "\n")
 			var_0_73 = i
@@ -2636,8 +2636,8 @@ function var_0_6.OnDrawFrame()
 			var_0_6.Separator()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button(u8("Г„Г®ГЎГ ГўГЁГІГј Гў Г±ГЇГЁГ±Г®ГЄ Г­Г®ГўГ»Г© ГЇГ®Г¤ГЇГіГ­ГЄГІ")) then
-				local var_59_0 = "Г‘ГЇГЁГ±Г®ГЄ Г®ГІГўГҐГІГ®Гў В№" .. #var_0_36 + 1
+			if var_0_6.Button(u8("Добавить в список новый подпункт")) then
+				local var_59_0 = "Список ответов №" .. #var_0_36 + 1
 
 				for iter_59_0, iter_59_1 in pairs(var_0_36) do
 					if var_0_36[iter_59_0].name == var_59_0 then
@@ -2652,7 +2652,7 @@ function var_0_6.OnDrawFrame()
 				var_0_1.save(var_0_36, var_0_3)
 
 				var_0_60 = {
-					u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+					u8("Не выбрано")
 				}
 
 				for iter_59_2, iter_59_3 in pairs(var_0_36) do
@@ -2660,7 +2660,7 @@ function var_0_6.OnDrawFrame()
 				end
 
 				var_0_62 = {
-					u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+					u8("Не выбрано")
 				}
 
 				for iter_59_4, iter_59_5 in pairs(var_0_36) do
@@ -2679,7 +2679,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.Separator()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button(u8(" ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ ГІГј"), var_0_6.ImVec2(110, 20)) then
+			if var_0_6.Button(u8(" Редактировать"), var_0_6.ImVec2(110, 20)) then
 				var_0_40 = true
 
 				var_0_1.save(var_0_36, var_0_3)
@@ -2695,7 +2695,7 @@ function var_0_6.OnDrawFrame()
 		else
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button(u8(" Г“Г¤Г Г«ГЁГІГј"), var_0_6.ImVec2(125, 20)) then
+			if var_0_6.Button(u8(" Удалить"), var_0_6.ImVec2(125, 20)) then
 				local var_59_1 = 0
 
 				for iter_59_6, iter_59_7 in pairs(var_0_36) do
@@ -2713,11 +2713,11 @@ function var_0_6.OnDrawFrame()
 					files:close()
 				end
 
-				sampAddChatMessage(var_0_13 .. " {FFFFFF} ГЏГ®Г¤ГЇГіГ­ГЄГІ Г®ГІГўГҐГІГ®Гў {FFE4B5}\"" .. u8:decode(var_0_74.v) .. "\" {FF0000}ГіГ¤Г Г«ГҐГ­.", 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF} Подпункт ответов {FFE4B5}\"" .. u8:decode(var_0_74.v) .. "\" {FF0000}удален.", 16776960)
 
 				var_0_73 = 0
 				var_0_60 = {
-					u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+					u8("Не выбрано")
 				}
 
 				for iter_59_8, iter_59_9 in pairs(var_0_36) do
@@ -2725,7 +2725,7 @@ function var_0_6.OnDrawFrame()
 				end
 
 				var_0_62 = {
-					u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+					u8("Не выбрано")
 				}
 
 				for iter_59_10, iter_59_11 in pairs(var_0_36) do
@@ -2743,10 +2743,10 @@ function var_0_6.OnDrawFrame()
 				-- block empty
 			else
 				var_0_6.Separator()
-				var_0_6.Text(u8("ГЌГ Г§ГўГ Г­ГЁГҐ:"))
+				var_0_6.Text(u8("Название:"))
 				var_0_6.SameLine()
 				var_0_6.TextColoredRGB(u8("{FFE4B5}") .. u8(var_0_36[var_0_61.v].name))
-				var_0_6.InputText(u8("ГЏГ®ГЁГ±ГЄ"), var_0_8)
+				var_0_6.InputText(u8("Поиск"), var_0_8)
 				var_0_6.Separator()
 
 				if var_0_8.v ~= "" then
@@ -2767,16 +2767,16 @@ function var_0_6.OnDrawFrame()
 			if var_0_40 then
 				var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-				if var_0_6.Button(u8(" Г‘Г®ГµГ°Г Г­ГЁГІГј"), var_0_6.ImVec2(125, 20)) then
+				if var_0_6.Button(u8(" Сохранить"), var_0_6.ImVec2(125, 20)) then
 					var_0_36[var_0_61.v].name = u8:decode(var_0_74.v)
 					var_0_36[var_0_61.v].text1 = string.gsub(u8:decode(var_0_75.v), "\n", "&")
 					var_0_40 = false
 
 					var_0_1.save(var_0_36, var_0_3)
-					sampAddChatMessage(var_0_13 .. " {FFFFFF} ГЏГ®Г¤ГЇГіГ­ГЄГІ Г®ГІГўГҐГІГ®Гў {FFE4B5}\"" .. u8:decode(var_0_74.v) .. "\" {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­.", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FFFFFF} Подпункт ответов {FFE4B5}\"" .. u8:decode(var_0_74.v) .. "\" {FFA500}сохранен.", 16776960)
 
 					var_0_60 = {
-						u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+						u8("Не выбрано")
 					}
 
 					for iter_59_14, iter_59_15 in pairs(var_0_36) do
@@ -2784,7 +2784,7 @@ function var_0_6.OnDrawFrame()
 					end
 
 					var_0_62 = {
-						u8("ГЌГҐ ГўГ»ГЎГ°Г Г­Г®")
+						u8("Не выбрано")
 					}
 
 					for iter_59_16, iter_59_17 in pairs(var_0_36) do
@@ -2796,7 +2796,7 @@ function var_0_6.OnDrawFrame()
 				var_0_6.SameLine()
 				var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-				if var_0_6.Button(u8("ГЋГІГ¬ГҐГ­Г "), var_0_6.ImVec2(125, 20)) then
+				if var_0_6.Button(u8("Отмена"), var_0_6.ImVec2(125, 20)) then
 					var_0_40 = false
 					var_0_74.v = u8(var_0_36[var_0_61.v].name)
 					var_0_75.v = string.gsub(u8(var_0_36[var_0_61.v].text1), "&", "\n")
@@ -2804,7 +2804,7 @@ function var_0_6.OnDrawFrame()
 
 				var_0_6.PopStyleVar(1)
 				var_0_6.Separator()
-				var_0_6.Text(u8("ГЌГ Г§ГўГ Г­ГЁГҐ:"))
+				var_0_6.Text(u8("Название:"))
 				var_0_6.SameLine()
 				var_0_6.PushItemWidth(150)
 				var_0_6.InputText(u8(""), var_0_74)
@@ -2820,9 +2820,9 @@ function var_0_6.OnDrawFrame()
 
 		var_0_6.SetNextWindowSize(var_0_6.ImVec2(937, 504), var_0_6.Cond.FirstUseEver)
 		var_0_6.SetNextWindowPos(var_0_6.ImVec2(var_0_71 / 2, var_0_72 / 2), var_0_6.Cond.FirstUseEver, var_0_6.ImVec2(0.5, 0.5))
-		var_0_6.Begin(u8(" Г‘ГЇГЁГ±Г®ГЄ Г®ГІГўГҐГІГ®Гў"), var_0_88.imgui_active2)
+		var_0_6.Begin(u8(" Список ответов"), var_0_88.imgui_active2)
 
-		if var_0_6.Combo(u8("Г‘ГЇГЁГ±Г®ГЄ"), var_0_63, var_0_62) and var_0_63.v ~= 0 and var_0_63.v ~= #var_0_62 then
+		if var_0_6.Combo(u8("Список"), var_0_63, var_0_62) and var_0_63.v ~= 0 and var_0_63.v ~= #var_0_62 then
 			var_0_74.v = u8(var_0_36[var_0_63.v].name)
 			var_0_75.v = string.gsub(u8(var_0_36[var_0_63.v].text1), "&", "\n")
 			var_0_73 = i
@@ -2833,10 +2833,10 @@ function var_0_6.OnDrawFrame()
 		if var_0_73 == 0 or var_0_63.v == 0 then
 			-- block empty
 		else
-			var_0_6.Text(u8("ГЌГ Г§ГўГ Г­ГЁГҐ:"))
+			var_0_6.Text(u8("Название:"))
 			var_0_6.SameLine()
 			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. u8(var_0_36[var_0_63.v].name))
-			var_0_6.InputText(u8("ГЏГ®ГЁГ±ГЄ"), var_0_9)
+			var_0_6.InputText(u8("Поиск"), var_0_9)
 			var_0_6.Separator()
 
 			if var_0_9.v ~= "" then
@@ -2896,7 +2896,7 @@ function var_0_6.OnDrawFrame()
 
 		var_0_6.SetNextWindowSize(var_0_6.ImVec2(580, 450), var_0_6.Cond.FirstUseEver)
 		var_0_6.SetNextWindowPos(var_0_6.ImVec2(var_0_71 / 2, var_0_72 / 2), var_0_6.Cond.FirstUseEver, var_0_6.ImVec2(0.5, 0.5))
-		var_0_6.Begin(var_0_11.ICON_CLIPBOARD .. u8(" ГѓГ«Г ГўГ­Г®ГҐ Г®ГЄГ­Г® Support Helper"), nil, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse + var_0_6.WindowFlags.NoMove + var_0_6.WindowFlags.NoTitleBar + var_0_6.WindowFlags.NoScrollbar)
+		var_0_6.Begin(var_0_11.ICON_CLIPBOARD .. u8(" Главное окно Support Helper"), nil, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse + var_0_6.WindowFlags.NoMove + var_0_6.WindowFlags.NoTitleBar + var_0_6.WindowFlags.NoScrollbar)
 		
 		if var_0_66 then
 			var_0_6.BeginChild("dom111", var_0_6.ImVec2(800, 120), true)
@@ -2908,9 +2908,9 @@ function var_0_6.OnDrawFrame()
 			var_0_6.SetCursorPosX(170)
 			var_0_6.Image(img1, var_0_6.ImVec2(200, 20.5))
 			var_0_6.SetCursorPosX(170)
-			var_0_6.TextColoredRGB(u8("ГђГ Г§Г°Г ГЎГ®ГІГ·ГЁГЄ Г±ГЄГ°ГЁГЇГІГ : ") .. var_0_11.ICON_USER_CIRCLE .. " {FFE4B5}Garfusha     ")
+			var_0_6.TextColoredRGB(u8("Разработчик скрипта: ") .. var_0_11.ICON_USER_CIRCLE .. " {FFE4B5}Garfusha     ")
 			var_0_6.SetCursorPosX(170)
-			var_0_6.TextColoredRGB(u8("Г’ГҐГЄГіГ№Г Гї ГўГҐГ°Г±ГЁГї: {00FF00}Г ГЄГІГіГ Г«ГјГ­Г Гї {008000}") .. var_0_11.ICON_CHECK_CIRCLE .. "     ")
+			var_0_6.TextColoredRGB(u8("Текущая версия: {00FF00}актуальная {008000}") .. var_0_11.ICON_CHECK_CIRCLE .. "     ")
 
 			var_0_6.SameLine()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.FrameRounding, 6)
@@ -2924,7 +2924,7 @@ function var_0_6.OnDrawFrame()
 					var_0_88.imgui_active4.v = true
 					var_0_88.imgui_active3.v = false
 				else
-					sampAddChatMessage(var_0_13 .. " {FF0000}ГЋГёГЁГЎГЄГ ! {FFFFFF}Г„Г Г­Г­Г®ГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ ГўГ®Г§Г¬Г®Г¦Г­Г® Г±Г¤ГҐГ«Г ГІГј ГІГ®Г«ГјГЄГ® Г± Г®Г±Г­Г®ГўГ­Г®ГЈГ® Г ГЄГЄГ ГіГ­ГІГ ", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FF0000}Ошибка! {FFFFFF}Данное действие возможно сделать только с основного аккаунта", 16776960)
 				end
 			end
 
@@ -2938,7 +2938,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button("" .. var_0_11.ICON_ID_CARD .. u8(" ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г ГЄГЄГ ГіГ­ГІГ "), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button("" .. var_0_11.ICON_ID_CARD .. u8(" Настройка аккаунта"), var_0_6.ImVec2(220, 80)) then
 				var_0_64 = 1
 				var_0_66 = false
 			end
@@ -2954,7 +2954,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button(u8("        ") .. var_0_11.ICON_COMMENTS .. u8(" ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г·Г ГІГ \n      (Г­Г Г±ГІГ°Г®Г©ГЄГ  Г®ГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГї\n Г±Г®Г®ГЎГ№ГҐГ­ГЁГ©, ГґГЁГ«ГјГІГ°Г Г¶ГЁГЁ Г·Г ГІГ  ГЁ\n              Г¤Г®ГЇ. ГґГіГ­ГЄГ¶ГЁГ©.)"), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button(u8("        ") .. var_0_11.ICON_COMMENTS .. u8(" Настройка чата\n      (настройка отображения\n сообщений, фильтрации чата и\n              доп. функций.)"), var_0_6.ImVec2(220, 80)) then
 				var_0_64 = 2
 				var_0_66 = false
 			end
@@ -2969,7 +2969,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button("" .. var_0_11.ICON_CALENDAR .. u8(" Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  Г°Г ГЎГ®ГІГ»"), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button("" .. var_0_11.ICON_CALENDAR .. u8(" Статистика работы"), var_0_6.ImVec2(220, 80)) then
 				local var_59_4 = io.open("moonloader\\config\\Support Helper\\pm.ini", "r")
 				local var_59_5 = {}
 				local var_59_6 = {}
@@ -3038,9 +3038,9 @@ function var_0_6.OnDrawFrame()
 					DialogText = string.format("%s\t%s / %s\t%s\t%s\n%s", var_59_6[iter_59_21], var_59_5[iter_59_21], var_59_7[var_59_6[iter_59_21]], var_59_8[var_59_6[iter_59_21]], var_59_8[var_59_6[iter_59_21]] * 30000, DialogText)
 				end
 
-				DialogText = "Г„Г ГІГ \tГЋГІГўГҐГІГ» / ГЋГІГў.(!)\tPayDay\tГ‡Г Г°ГЇГ«Г ГІГ \n" .. DialogText .. "\nГ‚Г±ГҐГЈГ®:\t" .. var_59_11 .. " / " .. var_59_12 .. "\t" .. var_59_10 .. "\t" .. var_59_10 * 30000 .. "\nГЋГІГўГҐГІГ»(w): \t" .. var_0_77.Weekset.online .. " / " .. var_0_77.Weekset.onlinereting
+				DialogText = "Дата\tОтветы / Отв.(!)\tPayDay\tЗарплата\n" .. DialogText .. "\nВсего:\t" .. var_59_11 .. " / " .. var_59_12 .. "\t" .. var_59_10 .. "\t" .. var_59_10 * 30000 .. "\nОтветы(w): \t" .. var_0_77.Weekset.online .. " / " .. var_0_77.Weekset.onlinereting
 
-				sampShowDialog(8888, "Support Helper | Samp-RP", DialogText, "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 5)
+				sampShowDialog(8888, "Support Helper | Samp-RP", DialogText, "Выбрать", "Назад", 5)
 
 				var_0_88.imgui_active3.v = false
 			end
@@ -3056,7 +3056,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button("           " .. var_0_11.ICON_COG .. u8(" ГЃГЁГ­Г¤ ГЄГ«Г ГўГЁГё\n    (Г­Г Г±ГІГ°Г®Г©ГЄГ  ГЈГ®Г°ГїГ·ГЁГµ ГЄГ«Г ГўГЁГё\n     Г¤Г«Гї Г®ГІГўГҐГІГ , Г®ГІГЄГ°Г»ГІГЁГї Г®ГЄГ®Г­\n ГіГЇГ°Г ГўГ«ГҐГ­ГЁГї ГґГіГ­ГЄГ¶ГЁГїГ¬ГЁ Г±ГЄГ°ГЁГЇГІГ "), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button("           " .. var_0_11.ICON_COG .. u8(" Бинд клавиш\n    (настройка горячих клавиш\n     для ответа, открытия окон\n управления функциями скрипта"), var_0_6.ImVec2(220, 80)) then
 				var_0_64 = 3
 				var_0_66 = false
 			end
@@ -3071,7 +3071,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button("" .. var_0_11.ICON_TEXT_HEIGHT .. u8(" ГЌГ Г±ГІГ°Г®Г©ГЄГЁ ГЁГ­ГІГҐГ°ГґГҐГ©Г±Г "), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button("" .. var_0_11.ICON_TEXT_HEIGHT .. u8(" Настройки интерфейса"), var_0_6.ImVec2(220, 80)) then
 				var_0_64 = 4
 				var_0_66 = false
 			end
@@ -3087,7 +3087,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 			var_0_6.SetWindowFontScale(1.1)
 
-			if var_0_6.Button("" .. var_0_11.ICON_LIST .. u8(" ГЉГ®Г¬Г Г­Г¤Г» Г±ГЄГ°ГЁГЇГІГ "), var_0_6.ImVec2(220, 80)) then
+			if var_0_6.Button("" .. var_0_11.ICON_LIST .. u8(" Команды скрипта"), var_0_6.ImVec2(220, 80)) then
 				var_0_88.imgui_active5.v = true
 				var_0_88.imgui_active3.v = false
 			end
@@ -3111,11 +3111,11 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PopStyleVar(1)
 			var_0_6.EndChild()
 			var_0_6.BeginChild("dom1", var_0_6.ImVec2(572, 322), true)
-			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t   {808080}В» {EEE8AA}ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г ГЄГЄГ ГіГ­ГІГ  {808080}В«"))
+			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t   {808080}» {EEE8AA}Настройка аккаунта {808080}«"))
 			var_0_6.Separator()
-			var_0_6.TextColoredRGB(u8("Г‚Г Гё NickName: {FFE4B5}") .. var_0_76.tag.SupportName)
+			var_0_6.TextColoredRGB(u8("Ваш NickName: {FFE4B5}") .. var_0_76.tag.SupportName)
 
-			if var_0_6.Button(u8("Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЄГ ГЄ Г®Г±Г­Г®ГўГ­Г®Г© Г ГЄГЄГ ГіГ­ГІ")) then
+			if var_0_6.Button(u8("Использовать как основной аккаунт")) then
 				var_0_88.SupportName.v = myName
 				var_0_76.tag.SupportName = var_0_88.SupportName.v
 
@@ -3127,11 +3127,11 @@ function var_0_6.OnDrawFrame()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г’Г®Г«ГјГЄГ® Г¤Г«Гї Г­ГҐГЈГ® ГЎГіГ¤ГҐГІ Г°Г ГЎГ®ГІГ ГІГј Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г­Г Г·Г Г«Г® Г¤Г­Гї"))
+				var_0_6.TextUnformatted(u8("Только для него будет работать автоматическое начало дня"))
 				var_0_6.EndTooltip()
 			end
 
-			var_0_6.Text(u8("ГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г­Г Г·Г Г«Г® Г¤Г­Гї (sduty)"))
+			var_0_6.Text(u8("Автоматическое начало дня (sduty)"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##1", var_0_88.activeAutoSduty) then
@@ -3139,7 +3139,7 @@ function var_0_6.OnDrawFrame()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГђГ Г±ГёГЁГ°ГҐГ­Г­Г»Г© Г·Г ГІ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў"))
+			var_0_6.Text(u8("Расширенный чат помощников"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##10", var_0_88.activechatsup) then
@@ -3151,20 +3151,20 @@ function var_0_6.OnDrawFrame()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г„Г®ГЎГ ГўГ«ГїГҐГІ ID ГЁГЈГ°Г®ГЄГ  ГЄ Г­ГЁГЄГі Гў Г·Г ГІГҐ (/sc)\nГ”Г®Г°Г¬Г ГІ: Nick_Name > Nick_Name[ID]"))
+				var_0_6.TextUnformatted(u8("Добавляет ID игрока к нику в чате (/sc)\nФормат: Nick_Name > Nick_Name[ID]"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("Г‚Г»ГўГ®Г¤ Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў Гў Г®ГІГ¤ГҐГ«ГјГ­Г®ГҐ Г®ГЄГ­Г®"))
+			var_0_6.Text(u8("Вывод чата игровых помощников в отдельное окно"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##91", var_0_88.activerenderchatsupports) then
 				-- block empty
 			end
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЇГ®Г§ГЁГ¶ГЁГѕ ГўГ»ГўГ®Г¤Г  Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў")) and var_0_88.activerenderchatsupports.v then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}Г„Г«Гї Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї Г­Г Г¦Г¬ГЁГІГҐ {ff004d}ГЏГђГЋГЃГ…Г‹", 16776960)
+			if var_0_6.Button(u8("Сменить позицию вывода чата игровых помощников")) and var_0_88.activerenderchatsupports.v then
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Для сохранения положения нажмите {ff004d}ПРОБЕЛ", 16776960)
 
 				editingPosP2 = true
 
@@ -3174,14 +3174,14 @@ function var_0_6.OnDrawFrame()
 			end
 
 			if var_0_88.activerenderchatsupports.v then
-				var_0_6.Text(u8("CГЄГ°Г»ГІГј Г·Г ГІ Г±Г ГЇГЇГ®Г°ГІГ®Гў Гў Г·Г ГІГҐ"))
+				var_0_6.Text(u8("Cкрыть чат саппортов в чате"))
 				var_0_6.SameLine()
 
 				if var_0_6.ToggleButton("##911", var_0_88.activeclearchatsupports) then
 					-- block empty
 				end
 
-				var_0_6.Text(u8("ГЉГ®Г«-ГўГ® Г±ГІГ°Г®ГЄ Гў Г®ГЄГ­ГҐ ГўГ»ГўГ®Г¤Г  Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®ГўГ®Г№Г­ГЁГЄГ®Гў: "))
+				var_0_6.Text(u8("Кол-во строк в окне вывода чата игровых повощников: "))
 				var_0_6.SameLine()
 				var_0_6.PushItemWidth(120)
 
@@ -3195,7 +3195,7 @@ function var_0_6.OnDrawFrame()
 			var_0_6.Separator()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Г‘Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ")) then
+			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Сохранить настройки")) then
 				var_0_76.tag.activeAutoSduty = var_0_88.activeAutoSduty.v
 				var_0_76.tag.active2 = var_0_88.active2.v
 				var_0_76.tag.active3 = var_0_88.active3.v
@@ -3219,7 +3219,7 @@ function var_0_6.OnDrawFrame()
 				font1 = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize1, var_0_76.tag.global_FontFlag)
 				font2 = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize, var_0_76.tag.global_FontFlag)
 
-				sampAddChatMessage(var_0_13 .. " {FFFFFF} ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ  ГіГ±ГЇГҐГёГ­Г® {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г»", 16776960)
+				sampAddChatMessage(var_0_13 .. " {FFFFFF} Настройки скрипта успешно {FFA500}сохранены", 16776960)
 			end
 
 			var_0_6.PopStyleVar(1)
@@ -3228,7 +3228,7 @@ function var_0_6.OnDrawFrame()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г…Г±Г«ГЁ ГЇГ®Г±Г«ГҐ Г­Г Г±ГІГ°Г®Г©ГЄГЁ ГЄГ ГЄГ®ГЈГ® Г«ГЁГЎГ® ГЇГ Г°Г Г¬ГҐГ°Г ГІГ°Г  / ГЇГіГ­ГЄГІГ  / ГЇГ®Г¤ГЇГіГ­ГЄГІГ  Гў ГЅГІГ®Г¬ Г®ГЄГ­ГҐ\nГўГ» Г­ГҐ Г­Г Г¦Г¬ГҐГІГҐ ГЄГ­Г®ГЇГЄГі \"Г±Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ\", ГІГ®, ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї Г­ГҐ ГўГ±ГІГіГЇГїГІ Гў Г±ГЁГ«Гі"))
+				var_0_6.TextUnformatted(u8("Если после настройки какого либо парамератра / пункта / подпункта в этом окне\nвы не нажмете кнопку \"сохранить настройки\", то, изменения не вступят в силу"))
 				var_0_6.EndTooltip()
 			end
 
@@ -3249,16 +3249,16 @@ function var_0_6.OnDrawFrame()
 			var_0_6.PopStyleVar(1)
 			var_0_6.EndChild()
 			var_0_6.BeginChild("dom#12", var_0_6.ImVec2(572, 322), true)
-			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t       {808080}В» {EEE8AA}ГЌГ Г±ГІГ°Г®Г©ГЄГ  Г·Г ГІГ  {808080}В«"))
+			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t       {808080}» {EEE8AA}Настройка чата {808080}«"))
 			var_0_6.Separator()
-			var_0_6.Text(u8("Г‘ГЄГ°Г»ГўГ ГІГј ГўГ®ГЇГ°Г®Г±Г» ГЁГ§ Г·Г ГІГ "))
+			var_0_6.Text(u8("Скрывать вопросы из чата"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##2", var_0_88.active2) then
 				-- block empty
 			end
 
-			var_0_6.Text(u8("Г‘ГЄГ°Г»ГўГ ГІГј Г·ГіГ¦ГЁГҐ Г®ГІГўГҐГІГ» ГЁГ§ Г·Г ГІГ "))
+			var_0_6.Text(u8("Скрывать чужие ответы из чата"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##3", var_0_88.active3) then
@@ -3266,14 +3266,14 @@ function var_0_6.OnDrawFrame()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЏГҐГ°ГҐГЄГ°Г Г±ГЁГІГј Г·Г ГІ ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў"))
+			var_0_6.Text(u8("Перекрасить чат игровых помощников"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##4", var_0_88.activesupcolor) then
 				-- block empty
 			end
 
-			var_0_6.Text(u8("Г–ГўГҐГІ Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў: "))
+			var_0_6.Text(u8("Цвет чата игровых помощников: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##1231", var_0_88.supchatcolor)
@@ -3282,12 +3282,12 @@ function var_0_6.OnDrawFrame()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+				var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г­Г ГЇГ®Г«Г­ГҐГ­ГЁГҐ ГЎГ Г§Г» ГўГ®ГЇГ°Г®Г±Г®Гў ГЁ Г®ГІГўГҐГІГ®Гў"))
+			var_0_6.Text(u8("Автоматическое наполнение базы вопросов и ответов"))
 var_0_6.SameLine()
 
 if var_0_6.ToggleButton("##aifaq", var_0_88.aifaqsystem) then
@@ -3299,19 +3299,19 @@ var_0_6.TextDisabled("(?)")
 
 if var_0_6.IsItemHovered() then
 	var_0_6.BeginTooltip()
-	var_0_6.Text(u8("Г‘ГЁГ±ГІГҐГ¬Г  Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ Г±Г®ГµГ°Г Г­ГїГҐГІ ГўГ®ГЇГ°Г®Г±Г» ГЁГЈГ°Г®ГЄГ®Гў\nГЁ Г®ГІГўГҐГІГ» Г±Г ГЇГЇГ®Г°ГІГ®Гў Гў Г«Г®ГЄГ Г«ГјГ­ГіГѕ ГЎГ Г§Гі Г¤Г Г­Г­Г»Гµ.\nГЏГ°ГЁ ГЇГ®ГўГІГ®Г°Г­Г»Гµ ГЇГ®ГµГ®Г¦ГЁГµ ГўГ®ГЇГ°Г®Г±Г Гµ ГЅГІГ  ГґГіГ­ГЄГ¶ГЁГї\nГЇГ®Г¤Г±ГЄГ Г¦ГҐГІ ГЈГ®ГІГ®ГўГ»Г© Г®ГІГўГҐГІ.\n\nГЏГ®Г±Г«ГҐ ГЄГ Г¦Г¤Г®ГЈГ® Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї ГўГ®ГЇГ°Г®Г±Г  ГЁГ«ГЁ Г®ГІГўГҐГІГ \nГў Г·Г ГІ ГўГ»ГўГ®Г¤ГЁГІГ±Гї ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГҐ, ГўГ®Г§Г¬Г®Г¦ГҐГ­ ГґГ«ГіГ¤."))
+	var_0_6.Text(u8("Система автоматически сохраняет вопросы игроков\nи ответы саппортов в локальную базу данных.\nПри повторных похожих вопросах эта функция\nподскажет готовый ответ.\n\nПосле каждого сохранения вопроса или ответа\nв чат выводится уведомление, возможен флуд."))
 	var_0_6.EndTooltip()
 end
 
 var_0_6.Separator()
-			var_0_6.Text(u8("ГЏГҐГ°ГҐГЄГ°Г Г±ГЁГІГј ГўГ®ГЇГ°Г®Г± Гў Г·Г ГІГҐ"))
+			var_0_6.Text(u8("Перекрасить вопрос в чате"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##5", var_0_88.activevop) then
 				-- block empty
 			end
 
-			var_0_6.Text(u8("Г–ГўГҐГІ ГўГ®ГЇГ°Г®Г±Г  Гў Г·Г ГІГҐ: "))
+			var_0_6.Text(u8("Цвет вопроса в чате: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##12312", var_0_88.vopchatcolor)
@@ -3320,19 +3320,19 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+				var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЏГҐГ°ГҐГЄГ°Г Г±ГЁГІГј Г·ГіГ¦ГЁГҐ Г®ГІГўГҐГІГ» Гў Г·Г ГІГҐ"))
+			var_0_6.Text(u8("Перекрасить чужие ответы в чате"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##6", var_0_88.activeotvetcolor) then
 				-- block empty
 			end
 
-			var_0_6.Text(u8("Г–ГўГҐГІ Г·ГіГ¦ГЁГµ Г®ГІГўГҐГІГ®Гў: "))
+			var_0_6.Text(u8("Цвет чужих ответов: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##123121", var_0_88.otvetcolor)
@@ -3341,19 +3341,19 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+				var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЏГҐГ°ГҐГЄГ°Г Г±ГЁГІГј Г¬Г®ГЁ Г®ГІГўГҐГІГ» Гў Г·Г ГІГҐ"))
+			var_0_6.Text(u8("Перекрасить мои ответы в чате"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##7", var_0_88.activemyotvetcolor) then
 				-- block empty
 			end
 
-			var_0_6.Text(u8("Г–ГўГҐГІ Г¬Г®ГЁГµ Г®ГІГўГҐГІГ®Гў: "))
+			var_0_6.Text(u8("Цвет моих ответов: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##1231212", var_0_88.myotvetcolor)
@@ -3362,20 +3362,20 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+				var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЏГ®ГЄГ Г§Г»ГўГ ГІГј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г­Г  ГЅГЄГ°Г Г­ГҐ"))
+			var_0_6.Text(u8("Показывать информацию на экране"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##9111", var_0_88.activeokno_infoscreen_otvet_) then
 				-- block empty
 			end
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЇГ®Г§ГЁГ¶ГЁГѕ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ")) and var_0_88.activeokno_infoscreen_otvet_.v then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}Г„Г«Гї Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї Г­Г Г¦Г¬ГЁГІГҐ {ff004d}ГЏГђГЋГЃГ…Г‹", 16776960)
+			if var_0_6.Button(u8("Сменить позицию информации на экране")) and var_0_88.activeokno_infoscreen_otvet_.v then
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Для сохранения положения нажмите {ff004d}ПРОБЕЛ", 16776960)
 
 				editingPosP3 = true
 
@@ -3385,7 +3385,7 @@ var_0_6.Separator()
 			end
 
 			if var_0_88.activeokno_infoscreen_otvet_.v then
-				var_0_6.Text(u8("ГГ°ГЁГґГІ ГІГҐГЄГ±ГІГ  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ: "))
+				var_0_6.Text(u8("Шрифт текста информации на экране: "))
 				var_0_6.SameLine()
 				var_0_6.PushItemWidth(120)
 				var_0_6.InputText("##121231", var_0_88.FontName_infoscreen_otvet_)
@@ -3394,11 +3394,11 @@ var_0_6.Separator()
 
 				if var_0_6.IsItemHovered() then
 					var_0_6.BeginTooltip()
-					var_0_6.TextUnformatted(u8("ГГ°ГЁГґГІ ГЄГ®ГІГ®Г°Г»Г© ГўГ» ГІГіГІ ГіГЄГ Г¦ГЁГІГҐ Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­ Гі ГўГ Г± Г­Г  ГЄГ®Г¬ГЇГјГѕГІГҐГ°ГҐ"))
+					var_0_6.TextUnformatted(u8("Шрифт который вы тут укажите должен быть установлен у вас на компьютере"))
 					var_0_6.EndTooltip()
 				end
 
-				var_0_6.Text(u8("ГЏГҐГ°ГҐГЄГ°Г Г±ГЁГІГј ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г­Г  ГЅГЄГ°Г Г­ГҐ"))
+				var_0_6.Text(u8("Перекрасить информацию на экране"))
 				var_0_6.SameLine()
 
 				if var_0_6.ToggleButton("##13", var_0_88.active_infoscreen_otvet_) then
@@ -3406,7 +3406,7 @@ var_0_6.Separator()
 				end
 
 				if var_0_88.active_infoscreen_otvet_ then
-					var_0_6.Text(u8("Г–ГўГҐГІ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ: "))
+					var_0_6.Text(u8("Цвет информации на экране: "))
 					var_0_6.SameLine()
 					var_0_6.PushItemWidth(120)
 					var_0_6.InputText("##1231277", var_0_88.infoscreen_otvet_)
@@ -3415,12 +3415,12 @@ var_0_6.Separator()
 
 					if var_0_6.IsItemHovered() then
 						var_0_6.BeginTooltip()
-						var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+						var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 						var_0_6.EndTooltip()
 					end
 				end
 
-				var_0_6.Text(u8("ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ: "))
+				var_0_6.Text(u8("Размер текста информации на экране: "))
 				var_0_6.SameLine()
 				var_0_6.PushItemWidth(120)
 
@@ -3429,7 +3429,7 @@ var_0_6.Separator()
 				end
 
 				var_0_6.PopItemWidth()
-				var_0_6.Text(u8("Г‘ГІГЁГ«Гј ГІГҐГЄГ±ГІГ  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ Г°Г­ГҐ: "))
+				var_0_6.Text(u8("Стиль текста информации на экарне: "))
 				var_0_6.SameLine()
 				var_0_6.PushItemWidth(120)
 
@@ -3443,7 +3443,7 @@ var_0_6.Separator()
 			var_0_6.Separator()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Г‘Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ")) then
+			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Сохранить настройки")) then
 				if #var_0_88.supchatcolor.v:gsub(" ", "") == 6 and #var_0_88.vopchatcolor.v:gsub(" ", "") == 6 and #var_0_88.infoscreen_otvet_.v:gsub(" ", "") == 6 and #var_0_88.otvetcolor.v:gsub(" ", "") == 6 and #var_0_88.myotvetcolor.v:gsub(" ", "") == 6 then
 					var_0_76.tag.activeAutoSduty = var_0_88.activeAutoSduty.v
 					var_0_76.tag.active2 = var_0_88.active2.v
@@ -3480,9 +3480,9 @@ var_0_6.Separator()
 					font2 = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize, var_0_76.tag.global_FontFlag)
 					font3 = renderCreateFont(var_0_76.tag.FontName_infoscreen_otvet_, var_0_76.tag.FontSize_infoscreen_otvet_, var_0_76.tag.FontFlag_infoscreen_otvet_)
 
-					sampAddChatMessage(var_0_13 .. " {FFFFFF} ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ  ГіГ±ГЇГҐГёГ­Г® {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г»", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FFFFFF} Настройки скрипта успешно {FFA500}сохранены", 16776960)
 				else
-					sampAddChatMessage(var_0_13 .. " {FF0000}ГЋГёГЁГЎГЄГ ! {FFFFFF}Г‘Г®ГµГ°Г Г­ГҐГ­ГЁГҐ Г­ГҐ ГЇГ°Г®ГЁГ§Г®ГёГ«Г®. Г–ГўГҐГІ Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј ГЁГ§ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў, ГЇГ°ГЁГ¬ГҐГ°: FFFFFF", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FF0000}Ошибка! {FFFFFF}Сохранение не произошло. Цвет должен быть из 6 символов, пример: FFFFFF", 16776960)
 				end
 			end
 
@@ -3492,7 +3492,7 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г…Г±Г«ГЁ ГЇГ®Г±Г«ГҐ Г­Г Г±ГІГ°Г®Г©ГЄГЁ ГЄГ ГЄГ®ГЈГ® Г«ГЁГЎГ® ГЇГ Г°Г Г¬ГҐГ°Г ГІГ°Г  / ГЇГіГ­ГЄГІГ  / ГЇГ®Г¤ГЇГіГ­ГЄГІГ  Гў ГЅГІГ®Г¬ Г®ГЄГ­ГҐ\nГўГ» Г­ГҐ Г­Г Г¦Г¬ГҐГІГҐ ГЄГ­Г®ГЇГЄГі \"Г±Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ\", ГІГ®, ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї Г­ГҐ ГўГ±ГІГіГЇГїГІ Гў Г±ГЁГ«Гі"))
+				var_0_6.TextUnformatted(u8("Если после настройки какого либо парамератра / пункта / подпункта в этом окне\nвы не нажмете кнопку \"сохранить настройки\", то, изменения не вступят в силу"))
 				var_0_6.EndTooltip()
 			end
 
@@ -3513,16 +3513,16 @@ var_0_6.Separator()
 			var_0_6.PopStyleVar(1)
 			var_0_6.EndChild()
 			var_0_6.BeginChild("dom#112", var_0_6.ImVec2(572, 322), true)
-			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t         {808080}В» {EEE8AA}ГЃГЁГ­Г¤ ГЄГ«Г ГўГЁГё {808080}В«"))
+			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t         {808080}» {EEE8AA}Бинд клавиш {808080}«"))
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЉГ«Г ГўГЁГёГ  Г¤Г«Гї Г®ГІГўГҐГІГ  Г­Г  ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ© ГўГ®ГЇГ°Г®Г±:"))
+			var_0_6.Text(u8("Клавиша для ответа на последний вопрос:"))
 			var_0_6.SameLine()
 			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.KeyPMLast:gsub("VK_", ""))
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЄГ«Г ГўГЁГёГі Г¤Г«Гї Г®ГІГўГҐГІГ  Г­Г  ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ© ГўГ®ГЇГ°Г®Г±")) then
+			if var_0_6.Button(u8("Сменить клавишу для ответа на последний вопрос")) then
 				var_0_88.imgui_active3.v = false
 
-				sampShowDialog(10, "Г‘Г¬ГҐГ­Г  ГЄГ«Г ГўГЁГёГЁ", "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г­ГіГ¦Г­ГіГѕ ГЄГ«Г ГўГЁГёГі", "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 0)
+				sampShowDialog(10, "Смена клавиши", "Нажмите на нужную клавишу", "Выбрать", "Назад", 0)
 				lua_thread.create(function()
 					local var_60_0 = ""
 
@@ -3547,14 +3547,14 @@ var_0_6.Separator()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЉГ«Г ГўГЁГёГ  Г¤Г«Гї ГЇГ®ГЄГ Г§Г  / Г±ГЄГ°Г»ГІГЁГї Г®ГЄГ­Г  Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ:"))
+			var_0_6.Text(u8("Клавиша для показа / скрытия окна с вопросами:"))
 			var_0_6.SameLine()
 			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.Keyokno:gsub("VK_", ""))
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЄГ«Г ГўГЁГёГі Г¤Г«Гї ГЇГ®ГЄГ Г§Г  / Г±ГЄГ°Г»ГІГЁГї Г®ГЄГ­Г  Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ")) then
+			if var_0_6.Button(u8("Сменить клавишу для показа / скрытия окна с вопросами")) then
 				var_0_88.imgui_active3.v = false
 
-				sampShowDialog(11, "Г‘Г¬ГҐГ­Г  ГЄГ«Г ГўГЁГёГЁ", "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г­ГіГ¦Г­ГіГѕ ГЄГ«Г ГўГЁГёГі", "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 0)
+				sampShowDialog(11, "Смена клавиши", "Нажмите на нужную клавишу", "Выбрать", "Назад", 0)
 				lua_thread.create(function()
 					local var_61_0 = ""
 
@@ -3579,14 +3579,14 @@ var_0_6.Separator()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЉГ«Г ГўГЁГёГ  Г¤Г«Гї Г®ГІГўГҐГІГ :"))
+			var_0_6.Text(u8("Клавиша для ответа:"))
 			var_0_6.SameLine()
-			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.KeyWindowPM:gsub("VK_", "") .. u8("{FFFFFF} + Г­Г®Г¬ГҐГ° Г±ГІГ°Г®ГЄГЁ"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.KeyWindowPM:gsub("VK_", "") .. u8("{FFFFFF} + номер строки"))
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЄГ«Г ГўГЁГёГі Г¤Г«Гї Г®ГІГўГҐГІГ ")) then
+			if var_0_6.Button(u8("Сменить клавишу для ответа")) then
 				var_0_88.imgui_active3.v = false
 
-				sampShowDialog(12, "Г‘Г¬ГҐГ­Г  ГЄГ«Г ГўГЁГёГЁ", "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г­ГіГ¦Г­ГіГѕ ГЄГ«Г ГўГЁГёГі", "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 0)
+				sampShowDialog(12, "Смена клавиши", "Нажмите на нужную клавишу", "Выбрать", "Назад", 0)
 				lua_thread.create(function()
 					local var_62_0 = ""
 
@@ -3611,14 +3611,14 @@ var_0_6.Separator()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЉГ«Г ГўГЁГёГ  Г¤Г«Гї ГЇГ°Г®Г¬Г®ГІГЄГЁ ГўГ»ГўГҐГ¤ГҐГ­Г­Г®ГЈГ® Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў:"))
+			var_0_6.Text(u8("Клавиша для промотки выведенного чата игровых помощников:"))
 			var_0_6.SameLine()
-			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.keyrenderchatsupports:gsub("VK_", "") .. u8("{FFFFFF} + ГЄГ®Г«ГҐГ±ГЁГЄГ® Г¬Г»ГёГЁ"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}") .. var_0_76.tag.keyrenderchatsupports:gsub("VK_", "") .. u8("{FFFFFF} + колесико мыши"))
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЄГ«Г ГўГЁГёГі Г¤Г«Гї ГЇГ°Г®Г¬Г®ГІГЄГЁ ГўГ»ГўГҐГ¤ГҐГ­Г­Г®ГЈГ® Г·Г ГІГ  ГЁГЈГ°Г®ГўГ»Гµ ГЇГ®Г¬Г®Г№Г­ГЁГЄГ®Гў")) then
+			if var_0_6.Button(u8("Сменить клавишу для промотки выведенного чата игровых помощников")) then
 				var_0_88.imgui_active3.v = false
 
-				sampShowDialog(12, "Г‘Г¬ГҐГ­Г  ГЄГ«Г ГўГЁГёГЁ", "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г­ГіГ¦Г­ГіГѕ ГЄГ«Г ГўГЁГёГі", "Г‚Г»ГЎГ°Г ГІГј", "ГЌГ Г§Г Г¤", 0)
+				sampShowDialog(12, "Смена клавиши", "Нажмите на нужную клавишу", "Выбрать", "Назад", 0)
 				lua_thread.create(function()
 					local var_63_0 = ""
 
@@ -3659,17 +3659,17 @@ var_0_6.Separator()
 			var_0_6.PopStyleVar(1)
 			var_0_6.EndChild()
 			var_0_6.BeginChild("dom#1112", var_0_6.ImVec2(572, 322), true)
-			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t             {808080}В» {EEE8AA}ГГ°ГЁГґГІГ» {808080}В«"))
+			var_0_6.TextColoredRGB(u8("\t\t\t\t\t\t\t\t\t\t\t\t\t\t             {808080}» {EEE8AA}Шрифты {808080}«"))
 			var_0_6.Separator()
-			var_0_6.Text(u8("Г‚Г®ГЇГ°Г®Г± Г­Г  ГЅГЄГ°Г Г­ГҐ ГЇГ°ГЁ ГўГўГ®Г¤ГҐ Г®ГІГўГҐГІГ "))
+			var_0_6.Text(u8("Вопрос на экране при вводе ответа"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##8", var_0_88.active6) then
 				-- block empty
 			end
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЇГ®Г§ГЁГ¶ГЁГѕ ГўГ®ГЇГ°Г®Г±Г  Г­Г  ГЅГЄГ°Г Г­ГҐ ")) and var_0_88.active6.v then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}Г„Г«Гї Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї Г­Г Г¦Г¬ГЁГІГҐ {ff004d}ГЏГђГЋГЃГ…Г‹", 16776960)
+			if var_0_6.Button(u8("Сменить позицию вопроса на экране ")) and var_0_88.active6.v then
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Для сохранения положения нажмите {ff004d}ПРОБЕЛ", 16776960)
 
 				editingPos = true
 
@@ -3679,7 +3679,7 @@ var_0_6.Separator()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГЉГ®Г«-ГўГ® Г±ГІГ°Г®ГЄ Гў Г®ГЄГ­ГҐ ГўГ®ГЇГ°Г®Г±Г®Гў: "))
+			var_0_6.Text(u8("Кол-во строк в окне вопросов: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 
@@ -3688,7 +3688,7 @@ var_0_6.Separator()
 			end
 
 			var_0_6.PopItemWidth()
-			var_0_6.Text(u8("ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ  Гў Г®ГЄГ­ГҐ ГўГ®ГЇГ°Г®Г±Г®Гў: "))
+			var_0_6.Text(u8("Размер текста в окне вопросов: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 
@@ -3697,15 +3697,15 @@ var_0_6.Separator()
 			end
 
 			var_0_6.PopItemWidth()
-			var_0_6.Text(u8("ГЋГЄГ­Г® Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ"))
+			var_0_6.Text(u8("Окно с вопросами"))
 			var_0_6.SameLine()
 
 			if var_0_6.ToggleButton("##9", var_0_88.active5) then
 				-- block empty
 			end
 
-			if var_0_6.Button(u8("Г‘Г¬ГҐГ­ГЁГІГј ГЇГ®Г§ГЁГ¶ГЁГѕ Г®ГЄГ­Г  Г± ГўГ®ГЇГ°Г®Г±Г Г¬ГЁ")) and var_0_88.active5.v then
-				sampAddChatMessage(var_0_13 .. " {FFFFFF}Г„Г«Гї Г±Г®ГµГ°Г Г­ГҐГ­ГЁГї ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї Г­Г Г¦Г¬ГЁГІГҐ {ff004d}ГЏГђГЋГЃГ…Г‹", 16776960)
+			if var_0_6.Button(u8("Сменить позицию окна с вопросами")) and var_0_88.active5.v then
+				sampAddChatMessage(var_0_13 .. " {FFFFFF}Для сохранения положения нажмите {ff004d}ПРОБЕЛ", 16776960)
 
 				editingPosP = true
 
@@ -3715,7 +3715,7 @@ var_0_6.Separator()
 			end
 
 			var_0_6.Separator()
-			var_0_6.Text(u8("ГГ°ГЁГґГІ ГІГҐГЄГ±ГІГ : "))
+			var_0_6.Text(u8("Шрифт текста: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##12123", var_0_88.FontName)
@@ -3724,11 +3724,11 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("ГГ°ГЁГґГІ ГЄГ®ГІГ®Г°Г»Г© ГўГ» ГІГіГІ ГіГЄГ Г¦ГЁГІГҐ Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­ Гі ГўГ Г± Г­Г  ГЄГ®Г¬ГЇГјГѕГІГҐГ°ГҐ"))
+				var_0_6.TextUnformatted(u8("Шрифт который вы тут укажите должен быть установлен у вас на компьютере"))
 				var_0_6.EndTooltip()
 			end
 
-			var_0_6.Text(u8("ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ : "))
+			var_0_6.Text(u8("Размер текста: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 
@@ -3737,7 +3737,7 @@ var_0_6.Separator()
 			end
 
 			var_0_6.PopItemWidth()
-			var_0_6.Text(u8("Г‘ГІГЁГ«Гј ГІГҐГЄГ±ГІГ : "))
+			var_0_6.Text(u8("Стиль текста: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 
@@ -3746,7 +3746,7 @@ var_0_6.Separator()
 			end
 
 			var_0_6.PopItemWidth()
-			var_0_6.Text(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ : "))
+			var_0_6.Text(u8("Цвет текста: "))
 			var_0_6.SameLine()
 			var_0_6.PushItemWidth(120)
 			var_0_6.InputText("##123", var_0_88.color)
@@ -3755,14 +3755,14 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г–ГўГҐГІ ГІГҐГЄГ±ГІГ  Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Гў ГґГ®Г°Г¬Г ГІГҐ HEX. ГЏГ°ГЁГ¬ГҐГ°: FFFFFF"))
+				var_0_6.TextUnformatted(u8("Цвет текста должен быть в формате HEX. Пример: FFFFFF"))
 				var_0_6.EndTooltip()
 			end
 
 			var_0_6.Separator()
 			var_0_6.PushStyleVar(var_0_6.StyleVar.ButtonTextAlign, var_0_6.ImVec2(0.5, 0.5))
 
-			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Г‘Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ")) then
+			if var_0_6.Button("" .. var_0_11.ICON_FLOPPY_O .. u8(" Сохранить настройки")) then
 				if #var_0_88.color.v:gsub(" ", "") == 6 then
 					var_0_76.tag.activeAutoSduty = var_0_88.activeAutoSduty.v
 					var_0_76.tag.active2 = var_0_88.active2.v
@@ -3784,9 +3784,9 @@ var_0_6.Separator()
 					font1 = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize1, var_0_76.tag.global_FontFlag)
 					font2 = renderCreateFont(var_0_76.tag.FontName, var_0_76.tag.global_FontSize, var_0_76.tag.global_FontFlag)
 
-					sampAddChatMessage(var_0_13 .. " {FFFFFF} ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ  ГіГ±ГЇГҐГёГ­Г® {FFA500}Г±Г®ГµГ°Г Г­ГҐГ­Г»", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FFFFFF} Настройки скрипта успешно {FFA500}сохранены", 16776960)
 				else
-					sampAddChatMessage(var_0_13 .. " {FF0000}ГЋГёГЁГЎГЄГ ! {FFFFFF}Г‘Г®ГµГ°Г Г­ГҐГ­ГЁГҐ Г­ГҐ ГЇГ°Г®ГЁГ§Г®ГёГ«Г®. Г–ГўГҐГІ Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј ГЁГ§ 6 Г±ГЁГ¬ГўГ®Г«Г®Гў, ГЇГ°ГЁГ¬ГҐГ°: FFFFFF", 16776960)
+					sampAddChatMessage(var_0_13 .. " {FF0000}Ошибка! {FFFFFF}Сохранение не произошло. Цвет должен быть из 6 символов, пример: FFFFFF", 16776960)
 				end
 			end
 
@@ -3796,7 +3796,7 @@ var_0_6.Separator()
 
 			if var_0_6.IsItemHovered() then
 				var_0_6.BeginTooltip()
-				var_0_6.TextUnformatted(u8("Г…Г±Г«ГЁ ГЇГ®Г±Г«ГҐ Г­Г Г±ГІГ°Г®Г©ГЄГЁ ГЄГ ГЄГ®ГЈГ® Г«ГЁГЎГ® ГЇГ Г°Г Г¬ГҐГ°Г ГІГ°Г  / ГЇГіГ­ГЄГІГ  / ГЇГ®Г¤ГЇГіГ­ГЄГІГ  Гў ГЅГІГ®Г¬ Г®ГЄГ­ГҐ\nГўГ» Г­ГҐ Г­Г Г¦Г¬ГҐГІГҐ ГЄГ­Г®ГЇГЄГі \"Г±Г®ГµГ°Г Г­ГЁГІГј Г­Г Г±ГІГ°Г®Г©ГЄГЁ\", ГІГ®, ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї Г­ГҐ ГўГ±ГІГіГЇГїГІ Гў Г±ГЁГ«Гі"))
+				var_0_6.TextUnformatted(u8("Если после настройки какого либо парамератра / пункта / подпункта в этом окне\nвы не нажмете кнопку \"сохранить настройки\", то, изменения не вступят в силу"))
 				var_0_6.EndTooltip()
 			end
 
@@ -3813,25 +3813,25 @@ var_0_6.Separator()
 
 		var_0_6.SetNextWindowSize(var_0_6.ImVec2(1000, 600), var_0_6.Cond.Always)
 		var_0_6.SetNextWindowPos(var_0_6.ImVec2(var_0_71 / 2, var_0_72 / 2), var_0_6.Cond.FirstUseEver, var_0_6.ImVec2(0.5, 0.5))
-		var_0_6.Begin(var_0_11.ICON_CALENDAR_MINUS_O .. u8(" Support Helper - Г‘Г·ГҐГІГ·ГЁГЄ Г®Г­Г«Г Г©Г­Г "), var_0_88.imgui_active4, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse + var_0_6.WindowFlags.NoMove)
+		var_0_6.Begin(var_0_11.ICON_CALENDAR_MINUS_O .. u8(" Support Helper - Счетчик онлайна"), var_0_88.imgui_active4, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse + var_0_6.WindowFlags.NoMove)
 		var_0_6.SameLine()
-		var_0_6.TextDisabled(u8("ГЌГ ГўГҐГ¤ГЁГ±Гј ГЄГіГ°Г±Г®Г°Г®Г¬ Г­Г  Г¤Г Г­Г­Г»Г© ГІГҐГЄГ±ГІ - F.A.Q ГЇГ® Г±Г·ГҐГІГ·ГЁГЄГі"))
+		var_0_6.TextDisabled(u8("Наведись курсором на данный текст - F.A.Q по счетчику"))
 
 		if var_0_6.IsItemHovered() then
 			var_0_6.BeginTooltip()
-			var_0_6.TextUnformatted(u8("Г‚Г°ГҐГ¬Гї Гў AFK Г­ГҐ ГіГ·ГЁГІГ»ГўГ ГҐГІГ±Гї\nГЋГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГҐ ГўГ°ГҐГ¬ГҐГ­ГЁ Г®Г­Г«Г Г©Г­Г  ГЁГ¤ГҐГІ ГЎГҐГ§ ГіГ·ГҐГІГ  ГЇГ°Г®ГўГҐГ¤ГҐГ­Г­Г®ГЈГ® ГўГ°ГҐГ¬ГҐГ­ГЁ Гў AFK"))
+			var_0_6.TextUnformatted(u8("Время в AFK не учитывается\nОтображение времени онлайна идет без учета проведенного времени в AFK"))
 			var_0_6.EndTooltip()
 		end
 
 		var_0_6.Separator()
 
 		if sampGetGamestate() ~= 3 then
-			var_0_6.TextColoredRGB(u8("ГЏГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ: ") .. get_clock(connectingTime))
+			var_0_6.TextColoredRGB(u8("Подключение: ") .. get_clock(connectingTime))
 		else
-			var_0_6.TextColoredRGB(u8("ГЋГ­Г«Г Г©Г­ Г§Г  Г±ГҐГ±Г±ГЁГѕ: ") .. get_clock(var_0_88.sesOnline.v))
-			var_0_6.TextColoredRGB(u8("ГЋГ­Г«Г Г©Г­ Г§Г  Г¤ГҐГ­Гј: ") .. get_clock(var_0_76.onDay.online))
+			var_0_6.TextColoredRGB(u8("Онлайн за сессию: ") .. get_clock(var_0_88.sesOnline.v))
+			var_0_6.TextColoredRGB(u8("Онлайн за день: ") .. get_clock(var_0_76.onDay.online))
 			var_0_6.Separator()
-			var_0_6.TextColoredRGB(u8("{0087FF}ГЋГ­Г«Г Г©Г­ Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: ") .. u8(get_clock(var_0_76.onWeek.online)), 2)
+			var_0_6.TextColoredRGB(u8("{0087FF}Онлайн за неделю: ") .. u8(get_clock(var_0_76.onWeek.online)), 2)
 			var_0_6.NewLine()
 
 			for iter_59_23 = 1, 6 do
@@ -3855,80 +3855,80 @@ var_0_6.Separator()
 
 		var_0_6.SetNextWindowSize(var_0_6.ImVec2(450, 275), var_0_6.Cond.FirstUseEver)
 		var_0_6.SetNextWindowPos(var_0_6.ImVec2(var_0_71 / 2, var_0_72 / 2), var_0_6.Cond.Always, var_0_6.ImVec2(0.5, 0.5))
-		var_0_6.Begin(var_0_11.ICON_FILE_TEXT_O .. u8(" ГЉГ®Г¬Г Г­Г¤Г» Г±ГЄГ°ГЁГЇГІГ "), var_0_88.imgui_active5, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse)
+		var_0_6.Begin(var_0_11.ICON_FILE_TEXT_O .. u8(" Команды скрипта"), var_0_88.imgui_active5, var_0_6.WindowFlags.NoResize + var_0_6.WindowFlags.NoCollapse)
 
 		if var_0_6.CollapsingHeader(u8("/shelper")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: Г‡Г ГЇГіГ±ГІГЁГІГј ГЈГ«Г ГўГ­Г®ГҐ Г¬ГҐГ­Гѕ Г±ГЄГ°ГЁГЇГІГ "))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Запустить главное меню скрипта"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /shelper"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /shelper"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/asupotv")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: Г‡Г ГЇГіГ±ГІГЁГІГј Г¬ГҐГ­Гѕ Г±Г·ГҐГІГ·ГЁГЄГ  Г®ГІГўГҐГІГ®Гў"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Запустить меню счетчика ответов"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /shelpv"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /shelpv"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/pmset")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: Г‡Г ГЇГіГ±ГІГЁГІГј Г¬ГҐГ­Гѕ Г­Г Г±ГІГ°Г®Г©ГЄГЁ ГЎГ»Г±ГІГ°Г»Гµ Г®ГІГўГҐГІГ®Гў"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Запустить меню настройки быстрых ответов"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /pmset"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /pmset"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/pm [id]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ Г±Г¤ГҐГ«Г ГІГј ГЎГ»Г±ГІГ°Г»Г© Г®ГІГўГҐГІ"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет сделать быстрый ответ"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /pm [id] ГЁ Г¦Г¬ГҐГІГҐ ГЄГ­Г®ГЇГЄГі 'Enter'"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /pm [id] и жмете кнопку 'Enter'"))
 		end
 
-		if var_0_6.CollapsingHeader(u8("/hcost [ID Г¤Г®Г¬Г ] [ID Г·ГҐГ«Г®ГўГҐГЄГ ]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г¤Г®Г¬ГҐ Гў /pm"))
+		if var_0_6.CollapsingHeader(u8("/hcost [ID дома] [ID человека]")) then
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию о доме в /pm"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /hcost [ID Г¤Г®Г¬Г ] [ID Г·ГҐГ«Г®ГўГҐГЄГ ]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /hcost [ID дома] [ID человека]"))
 		end
 
-		if var_0_6.CollapsingHeader(u8("/car [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ Г ГўГІГ®] [1 - ГҐГ±Г«ГЁ Г­ГіГ¦Г­Г® ГіГЄГ Г§Г ГІГј Г¶ГҐГ­Гі Г±Г® Г±ГЄГЁГ¤ГЄГ®Г©]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г¬Г ГёГЁГ­ГҐ Гў PM\nГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЄГ®Г¬Г Г­Г¤Г»: /car 23 nrg"))
+		if var_0_6.CollapsingHeader(u8("/car [ID] [Название авто] [1 - если нужно указать цену со скидкой]")) then
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию о машине в PM\nПример использования команды: /car 23 nrg"))
 			var_0_6.Text("")
-			var_0_6.Text(u8("Г…Г±Г«ГЁ Г¦ГҐ ГўГ Г¬ Г­Г Г¤Г® ГіГЄГ Г§Г ГІГј Г¶ГҐГ­Гі Г ГўГІГ® Г±Г® Г±ГЄГЁГ¤ГЄГ®Г©, ГІГ®\nГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЄГ®Г¬Г Г­Г¤Г»: /car 23 nrg 1"))
+			var_0_6.Text(u8("Если же вам надо указать цену авто со скидкой, то\nПример использования команды: /car 23 nrg 1"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}:\n/car [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ Г ГўГІГ®] [1 - ГҐГ±Г«ГЁ Г­ГіГ¦Г­Г® ГіГЄГ Г§Г ГІГј Г¶ГҐГ­Гі Г±Г® Г±ГЄГЁГ¤ГЄГ®Г©]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}:\n/car [ID] [Название авто] [1 - если нужно указать цену со скидкой]"))
 		end
 
-		if var_0_6.CollapsingHeader(u8("/sleaders [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ Г±Г¤ГҐГ«Г ГІГј ГЎГ»Г±ГІГ°Г»Г© ГЇГ®ГЁГ±ГЄ ГЇГ® Г«ГЁГ¤ГҐГ°Г Г¬\nГ€ Г¤Г Г«ГҐГҐ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў /pm\nГЊГ®Г¦Г­Г® ГЇГЁГ±Г ГІГј Г·Г Г±ГІГј Г­Г Г§ГўГ Г­ГЁГї Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ\nГЏГ°ГЁГ¬ГҐГ° ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЄГ®Г¬Г Г­Г¤Г»: /sleaders 12 grov"))
+		if var_0_6.CollapsingHeader(u8("/sleaders [ID] [Название организации]")) then
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет сделать быстрый поиск по лидерам\nИ далее вывести информацию в /pm\nМожно писать часть названия организации\nПример использования команды: /sleaders 12 grov"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /sleaders [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /sleaders [ID] [Название организации]"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/sfarm [ID]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® ГґГҐГ°Г¬Г Гµ Гў /pm"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию о фермах в /pm"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /sfarm [ID]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /sfarm [ID]"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/skaz [ID]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г·ГјГҐ ГЄГ Г§ГЁГ­Г® Гў /pm"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию чье казино в /pm"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /skaz [ID]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /skaz [ID]"))
 		end
 
-		if var_0_6.CollapsingHeader(u8("/sgps [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ gps]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® /gps Гў /pm"))
+		if var_0_6.CollapsingHeader(u8("/sgps [ID] [Название gps]")) then
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию о /gps в /pm"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /sgps [ID] [ГЌГ Г§ГўГ Г­ГЁГҐ gps]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /sgps [ID] [Название gps]"))
 		end
 
-		if var_0_6.CollapsingHeader(u8("/skinid [ID] [ID Г±ГЄГЁГ­Г ]")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЏГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г±ГЄГЁГ­Г Гµ Гў /pm"))
+		if var_0_6.CollapsingHeader(u8("/skinid [ID] [ID скина]")) then
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Позволяет вывести информацию о скинах в /pm"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /skinid [ID] [ID Г±ГЄГЁГ­Г ]"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /skinid [ID] [ID скина]"))
 		end
 
 		if var_0_6.CollapsingHeader(u8("/lasup")) then
-			var_0_6.TextColoredRGB(u8("{FFE4B5}ГЋГЇГЁГ±Г Г­ГЁГҐ{FFFFFF}: ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г±Г·ГҐГІГ·ГЁГЄГ  ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г­Г  ГЅГЄГ°Г Г­ГҐ\nГ‚Г® ГўГ°ГҐГ¬Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ,\nГЁГЈГ°Г  Г¬Г®Г¦ГҐГІ Г§Г ГўГЁГ±Г­ГіГІГј Г­Г  3 - 15 Г±ГҐГЄГіГ­Г¤"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Описание{FFFFFF}: Обновление счетчика информации на экране\nВо время обновления информации,\nигра может зависнуть на 3 - 15 секунд"))
 			var_0_6.Text("")
-			var_0_6.TextColoredRGB(u8("{FFE4B5}Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ{FFFFFF}: /lasup"))
+			var_0_6.TextColoredRGB(u8("{FFE4B5}Использование{FFFFFF}: /lasup"))
 		end
 
 		var_0_6.End()
@@ -3954,7 +3954,7 @@ var_0_6.Separator()
 				end
 			end
 		else
-			var_0_6.Text(u8("ГЌГЁГ·ГҐГЈГ® Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®"))
+			var_0_6.Text(u8("Ничего не найдено"))
 		end
 
 		var_0_6.End()
@@ -4041,7 +4041,7 @@ function get_clock(arg_71_0)
 		onDay = false
 	end
 
-	return os.date((onDay and math.floor(arg_71_0 / 86400) .. "Г¤ " or "") .. "%H:%M:%S", arg_71_0 + var_71_0)
+	return os.date((onDay and math.floor(arg_71_0 / 86400) .. "д " or "") .. "%H:%M:%S", arg_71_0 + var_71_0)
 end
 
 function autoSave()
@@ -4060,7 +4060,7 @@ end
 
 function onScriptTerminate(arg_73_0, arg_73_1)
 	if arg_73_0 == thisScript() and not restart and var_0_1.save(var_0_76, "Support Helper\\SH-settings.ini") then
-		sampfuncsLog("{FFFF00}[Support Helper]: {FFFFFF}Г‚Г Гё Г®Г­Г«Г Г©Г­ Г±Г®ГµГ°Г Г­ВёГ­!")
+		sampfuncsLog("{FFFF00}[Support Helper]: {FFFFFF}Ваш онлайн сохранён!")
 	end
 end
 
@@ -4078,18 +4078,18 @@ end
 
 function getStrDate(arg_75_0)
 	local var_75_0 = {
-		"ГїГ­ГўГ Г°Гї",
-		"ГґГҐГўГ°Г Г«Гї",
-		"Г¬Г Г°ГІГ ",
-		"Г ГЇГ°ГҐГ«Гї",
-		"Г¬Г Гї",
-		"ГЁГѕГ­Гї",
-		"ГЁГѕГ«Гї",
-		"Г ГўГЈГіГ±ГІГ ",
-		"Г±ГҐГ­ГІГїГЎГ°Гї",
-		"Г®ГЄГІГїГЎГ°Гї",
-		"Г­Г®ГїГЎГ°Гї",
-		"Г¤ГҐГЄГ ГЎГ°Гї"
+		"января",
+		"февраля",
+		"марта",
+		"апреля",
+		"мая",
+		"июня",
+		"июля",
+		"августа",
+		"сентября",
+		"октября",
+		"ноября",
+		"декабря"
 	}
 	local var_75_1 = tonumber(os.date("%d", arg_75_0))
 	local var_75_2 = var_75_0[tonumber(os.date("%m", arg_75_0))]
