@@ -731,37 +731,42 @@ function autoupdate()
 
         local file = io.open(jsonFile, "r")
 
-        if file then
+        if not file then
+            return
+        end
 
-            local content = file:read("*a")
-            file:close()
+        local data =
+            decodeJson(file:read("*a"))
 
-            local data = decodeJson(content)
+        file:close()
 
-            if data.version ~= script_version then
+        if data.version ~= script_version then
 
-                sampAddChatMessage(
-                    "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
-                    -1
-                )
+            sampAddChatMessage(
+                "{FFFF00}Support Helper | {8B0000}Найдено обновление!",
+                -1
+            )
 
-                downloadUrlToFile(
-                    data.updateurl,
-                    thisScript().path
-                )
+            downloadUrlToFile(
+                data.updateurl,
+                thisScript().path
+            )
 
-                sampAddChatMessage(
-                    "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
-                    -1
-                )
+            wait(5000)
 
-            else
+            sampAddChatMessage(
+                "{FFFF00}Support Helper | {32CD32}Скрипт обновлен! Перезапустите игру.",
+                -1
+            )
 
-                sampAddChatMessage(
-                    "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
-                    -1
-                )
-            end
+            thisScript():unload()
+
+        else
+
+            sampAddChatMessage(
+                "{FFFF00}Support Helper | {FFFACD}У вас актуальная версия.",
+                -1
+            )
         end
     end)
 end
