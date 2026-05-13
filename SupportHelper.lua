@@ -716,57 +716,56 @@ function var_0_6.TextColoredRGB(arg_2_0, arg_2_1)
 end
 function autoupdate()
 
-    local jsonFile = getWorkingDirectory() ..
-        "\\moonloader\\config\\supporthelper_version.json"
+    lua_thread.create(function()
 
-    downloadUrlToFile(version_url, jsonFile,
-        function(id, status)
+        local jsonFile =
+            getWorkingDirectory() ..
+            "\\config\\supporthelper_version.json"
 
-            if status == 58 then
+        downloadUrlToFile(
+            version_url,
+            jsonFile
+        )
 
-                local file = io.open(jsonFile, "r")
+        wait(3000)
 
-                if file then
+        local file = io.open(jsonFile, "r")
 
-                    local data = decodeJson(file:read("*a"))
-                    file:close()
+        if file then
 
-                    if data.version ~= script_version then
+            local content = file:read("*a")
+            file:close()
 
-                        sampAddChatMessage(
-                            "[Support Helper] Найдено обновление!",
-                            -1
-                        )
+            local data = decodeJson(content)
 
-                        downloadUrlToFile(
-                            data.updateurl,
-                            thisScript().path,
-                            function(id2, status2)
+            if data.version ~= script_version then
 
-                                if status2 ==
-                                    dlstatus.STATUS_ENDDOWNLOADDATA then
+                sampAddChatMessage(
+                    "[Support Helper] Найдено обновление!",
+                    -1
+                )
 
-                                    sampAddChatMessage(
-                                        "[Support Helper] Скрипт обновлен! Перезагрузите игру.",
-                                        -1
-                                    )
-                                end
-                            end
-                        )
+                downloadUrlToFile(
+                    data.updateurl,
+                    thisScript().path
+                )
 
-                    else
+                sampAddChatMessage(
+                    "[Support Helper] Скрипт обновлен! Перезапустите игру.",
+                    -1
+                )
 
-                        sampAddChatMessage(
-                            "[Support Helper] У вас последняя версия.",
-                            -1
-                        )
-                    end
-                end
+            else
+
+                sampAddChatMessage(
+                    "[Support Helper] Последняя версия.",
+                    -1
+                )
             end
         end
-    )
+    end)
 end
-
+            
 function main()
 	if not isSampLoaded() or not isSampfuncsLoaded() then
 		return
@@ -788,7 +787,7 @@ function main()
 		sampAddChatMessage("{EEE8AA}---------- Support Helper for Samp-RP ----------", -1)
 sampAddChatMessage("{FFFFFF}Статус: {00FF00}Активирован", -1)
 sampAddChatMessage("{FFFFFF}Меню: {FFE4B5}/shelper", -1)
-sampAddChatMessage("{FFFFFF}Dev: {008000}Garfusha", -1)
+sampAddChatMessage("{FFFFFF}Dev: {008000}Garfushaaaaaaaaa", -1)
 	end
 
 	for iter_6_0, iter_6_1 in pairs(var_0_36) do
